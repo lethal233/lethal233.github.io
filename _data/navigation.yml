@@ -1,0 +1,22 @@
+# main links links
+main:
+  - title: "Projects"
+    url: /projects/
+
+  - title: "Publications"
+    url: /publications/
+
+  - title: "CV"
+    url: /files/cv_Shilong_Li_en_edit.pdf
+
+  - title: "Teaching"
+    url: /teaching/
+
+  - title: "Blog Posts"
+    url: /year-archive/
+
+  - title: "Portfolio"
+    url: /portfolio/
+
+  - title: "Talks"
+    url: /talks/
