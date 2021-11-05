@@ -16,10 +16,6 @@ I am a senior undergraduate student at the CSE department of SUSTech, under the 
   - In Software Quality Lab (SQLab), supervised by Prof. Yepang Liu
   - GPA Top 5% ranking in class
 
-# Publications
-
-Oops, there is not any publications now~
-
 # Honors and Awards
 
 - The First Class (Top 5%) of the Merit Student Scholarship, SUSTech, Oct. 2019, 2020, 2021
@@ -30,7 +26,7 @@ Oops, there is not any publications now~
 
 # Teaching and Services
 
-- Co-maintainer and co-developer of the [SUSTech Application--飞跃手册](https://sustech-application.com), Apr. 2021 -- Present
+- Co-maintainer and co-developer of the [SUSTech Application(飞跃手册)](https://sustech-application.com), Apr. 2021 -- Present
 
 - Teaching Assistant of CS102A: Introduction to Java Programming, SUSTech, Spring 2021
 
@@ -39,3 +35,7 @@ Oops, there is not any publications now~
 - Teaching Assistant of CS207: Digital Logic, SUSTech, Fall 2020
 
 - Student Volunteer of the 42nd International Conference on Software Engineering (ICSE 20), June 2020
+
+# Publications
+
+Oops, there is not any publications now~
