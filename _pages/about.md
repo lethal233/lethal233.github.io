@@ -36,6 +36,13 @@ I am a senior undergraduate student at the CSE department of SUSTech, under the 
 
 - Student Volunteer of the 42nd International Conference on Software Engineering (ICSE 20), June 2020
 
+# Intern Experience
+
+- Fall 2021: Software Testing Engineer
+  - Lakala Payment Co., Ltd
+  - Web testing and automated testing
+  - Go
+
 # Publications
 
 Oops, there is not any publications now~
