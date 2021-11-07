@@ -63,3 +63,7 @@ Additionally, there is one more project: [HTTPS-traffic-capture-and-analysis](#H
 ## HTTPS-traffic-capture-and-analysis
 
 - [Repo Link](https://github.com/mitmproxy-https-analysis/session_capture)
+
+## Automated Web Crawler
+
+- [Repo Link](https://github.com/lethal233/subtle-utils)
