@@ -30,7 +30,7 @@ I am a senior undergraduate student at the CSE department of SUSTech, under the 
 
 - Teaching Assistant of CS102A: Introduction to Java Programming, SUSTech, Spring 2021
 
-- Student Assistant of Institute for Advanced Studies in Social Sciences , Sept. 2019 -- Aug. 2021
+- Student Assistant of Institute for Advanced Studies in Social Sciences, SUSTech, Sept. 2019 -- Aug. 2021
 
 - Teaching Assistant of CS207: Digital Logic, SUSTech, Fall 2020
 
@@ -45,4 +45,4 @@ I am a senior undergraduate student at the CSE department of SUSTech, under the 
 
 # Publications
 
-Oops, there is not any publications now~
+Going to be published soon.
