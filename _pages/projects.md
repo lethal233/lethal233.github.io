@@ -26,12 +26,16 @@ Additionally, there is one more project: [HTTPS-traffic-capture-and-analysis](#H
 
 ## [VGA-Displayer](https://github.com/assign-D-D/simple_VGA)
 
-- Verilog hardware development based on Minisys development board
+- Technical Stack: Verilog, Minisys development board, Python
+- Use serial port to transfer images/gif from laptop to the development board.
+- Display the image or gif through VGA port on the monitor.
+- Resize the images just as the background image in Windows desktop, such as tiling, filling, etc.
+- Display the resolution on the development board.
+
+
+## [Magic-Square-and-Sudoku-Solvers](https://github.com/quantum-square)
+
 - 
-
-## Magic-Square-and-Sudoku-Solvers
-
-- [Repo Link](https://github.com/quantum-square)
 
 ## WIFI-Module-Communication-STM32
 
@@ -65,6 +69,9 @@ Additionally, there is one more project: [HTTPS-traffic-capture-and-analysis](#H
 
 - [Repo Link](https://github.com/mitmproxy-https-analysis/session_capture)
 
-## Automated Web Crawler
+## [Automated Web Crawler](https://github.com/lethal233/subtle-utils)
 
-- [Repo Link](https://github.com/lethal233/subtle-utils)
+- Technical Stack: Python (requests, keyboard)
+- Given a series of URLs (Json/csv/xlsx format), and use keyboard shortcuts to open these URLs in order.
+- Get rid of Ctrl+C/V.
+- Inspired when doing the quantum-computing research.
