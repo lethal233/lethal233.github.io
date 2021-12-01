@@ -1,8 +1,8 @@
 # main links links
 main:
 
-  - title: "Publications"
-    url: /publications/
+#  - title: "Publications"
+#    url: /publications/
 
   - title: "Projects"
     url: /projects/
@@ -19,5 +19,5 @@ main:
   - title: "CV"
     url: /files/cv_Shilong_Li_en_edit.pdf
 
-  - title: "Talks"
-    url: /talks/
+#  - title: "Talks"
+#    url: /talks/
