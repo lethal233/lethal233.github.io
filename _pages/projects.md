@@ -24,9 +24,10 @@ Contains the following (class identifier order):
 
 Additionally, there is one more project: [HTTPS-traffic-capture-and-analysis](#HTTPS-traffic-capture-and-analysis)
 
-## VGA-Displayer
+## [VGA-Displayer](https://github.com/assign-D-D/simple_VGA)
 
-- [Repo Link](https://github.com/assign-D-D/simple_VGA)
+- Verilog hardware development based on Minisys development board
+- 
 
 ## Magic-Square-and-Sudoku-Solvers
 

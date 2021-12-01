@@ -38,11 +38,10 @@ I am a senior undergraduate student at the CSE department of SUSTech, under the 
 
 # Intern Experience
 
-- Fall 2021: Software Testing Engineer
-  - Lakala Payment Co., Ltd
-  - Web testing and automated testing
-  - Go
+- Sept 2021 - Dec 2021: Software Testing Engineer @ Lakala Payment Co., Ltd, Shenzhen
+  - Automated testing framework (functional testing, performance testing, stress testing, reliability testing)
+  - Blockchain (HyperLedger Fabric) in Go
 
 # Publications
 
-Going to be published soon.
+- One paper (I am one major author) in software engineering is being written, and it will be submitted to one top conference soon.
