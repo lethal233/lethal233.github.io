@@ -12,7 +12,7 @@ I am a senior undergraduate student at the CSE department of SUSTech, under the 
 
 # Education
 
-- Southern University of Science and Technology: B.Eng. in Computer Science and Technology, Sep. 2018 - Present
+- Southern University of Science and Technology: B.Eng. in Computer Science and Technology, Sept. 2018 - Present
   - In Software Quality Lab (SQLab), supervised by Prof. Yepang Liu
   - GPA Top 5% ranking in class
 
