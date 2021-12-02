@@ -1,3 +1,5 @@
 _site/
 
 .vscode/
+
+.DS_Store
