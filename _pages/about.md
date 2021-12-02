@@ -8,12 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior undergraduate student at the CSE department of SUSTech, under the supervision of Prof. Yepang Liu in SQLab research group. My research interest is related to software engineering. Currently, I am working on research projects in to web testing.
+I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) department of [SUSTech](https://www.sustech.edu.cn), under the supervision of [Prof. Yepang Liu](https://yepangliu.github.io) in SQLab research group. My research interest is related to software engineering. Currently, I am working on research projects in to web testing.
 
 # Education
 
-- [Southern University of Science and Technology](https://www.sustech.edu.cn): B.Eng. in [Computer Science and Technology](http://cse.sustech.edu.cn), Sept. 2018 - Present
-  - In Software Quality Lab (SQLab), supervised by [Prof. Yepang Liu](https://yepangliu.github.io)
+- Southern University of Science and Technology: B.Eng. in Computer Science and Technology, Sept. 2018 - Present
+  - In Software Quality Lab (SQLab), supervised by Prof. Yepang Liu
   - GPA Top 5% ranking in class
 
 # Honors and Awards
@@ -23,6 +23,12 @@ I am a senior undergraduate student at the CSE department of SUSTech, under the 
 - Outstanding Teaching Assistant, SUSTech, June 2021
 
 - Outstanding freshmen scholarship, Third Class, SUSTech, Nov. 2018
+
+# Research Experience
+
+- Empirical software engineering
+- Automated restoration of archaeological artifacts
+- Web testing
 
 # Teaching and Services
 
