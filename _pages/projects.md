@@ -13,17 +13,17 @@ This page aims for the collection of my course projects since 2018.
 Contains the following (class identifier order):
 
 - Digital Design (CS207): [VGA displayer](https://github.com/assign-D-D/simple_VGA)
-- Computer Application and System Design (CS209A): [sudoku & magic square](#Magic-Square-and-Sudoku-Solvers)
-- Embedded System (CS301): [Wi-Fi communication based on STM32](#WIFI-Module-Communication-STM32)
-- Operating System (CS302): [xv6-rust](#Rust-Implementation-xv6)
-- Artificial Intelligence (CS303A): [Reversi, IMP, Text classification](#AI-project)
-- Computer Network (CS305): [rdt](#RDT)
-- Data Mining (CS306): [kdd-taxi-visualization](#Visualization-of-Taxi-Trip)
-- Database Principle (CS307): [mock-12306](#mock-12306)
-- OOAD (CS309): [Database Online Judge System](#Database-SQL-Online-Judge-System--Phantom-OJ)
+- Computer Application and System Design (CS209A): [sudoku & magic square](https://github.com/quantum-square)
+- Embedded System (CS301): [Wi-Fi communication based on STM32](https://github.com/CS301-sustech-zmfl/wifi-communication)
+- Operating System (CS302): [xv6-rust](https://github.com/CS301-sustech-zmfl/xv6-rust)
+- Artificial Intelligence (CS303A): [Reversi, IMP, Text classification](https://github.com/lethal233/CS303A-projects)
+- Computer Network (CS305): [rdt](https://github.com/zero-day-rdt/RDT)
+- Data Mining (CS306): [kdd-taxi-visualization](https://github.com/kdd-taxi-visualization)
+- Database Principle (CS307): [mock-12306](https://github.com/Select-60321/select-60321)
+- OOAD (CS309): [Database Online Judge System](https://github.com/Phantom-OJ)
 - Computer Security (CS315): [Explore SUSTech LAN Vulnerabilities](https://github.com/Phantom-OJ/CS315_THCipv6)
 
-Additionally, there is one more project: [HTTPS-traffic-capture-and-analysis](#HTTPS-traffic-capture-and-analysis)
+Additionally, there is one more project: [HTTPS-traffic-capture-and-analysis](https://github.com/mitmproxy-https-analysis/session_capture)
 
 Out of interest and convenience, I developed this tool to automatically open the web URLs. [Automated Web Crawler](https://github.com/lethal233/subtle-utils)
 
