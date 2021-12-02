@@ -244,6 +244,15 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # highlights
+  - scope:
+      path: ""
+      type: highlights
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 # Sass/SCSS
 sass:
