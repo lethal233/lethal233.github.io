@@ -27,6 +27,8 @@ Additionally, there is one more project: [HTTPS-traffic-capture-and-analysis](ht
 
 Out of interest and convenience, I developed this tool to automatically open the web URLs. [Automated Web Crawler](https://github.com/lethal233/subtle-utils)
 
+Out of concern, I visualized the COVID-19 data in Wuhan: [C-19 in Wuhan](https://github.com/lethal233/Visualization-of-NCP-Data-in-Wuhan)
+
 The details are listed below:
 
 ## [VGA-Displayer](https://github.com/assign-D-D/simple_VGA)
