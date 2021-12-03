@@ -42,9 +42,9 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 
 - Student Volunteer of the 42nd International Conference on Software Engineering (ICSE 20), June 2020
 
-# Intern Experience
+# Work Experience
 
-- Sept 2021 - Dec 2021: Software Testing Engineer @ Lakala Payment Co., Ltd, Shenzhen
+- Sept 2021 - Dec 2021: Software Testing Engineer Internship @ Lakala Payment Co., Ltd, Shenzhen
   - Automated testing framework (functional testing, performance testing, stress testing, reliability testing)
   - Blockchain (HyperLedger Fabric) in Go
 
