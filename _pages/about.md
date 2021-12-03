@@ -8,13 +8,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) department of [SUSTech](https://www.sustech.edu.cn), under the supervision of [Prof. Yepang Liu](https://yepangliu.github.io) in SQLab research group. My research interest is related to software engineering. Currently, I am working on research projects in web testing.
+I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) department of [SUSTech](https://www.sustech.edu.cn), under the supervision of [Prof. Yepang Liu](https://yepangliu.github.io) in SQLab research group. My research interests are software engineering, software testing, and software security. Currently, I am working on research project in web testing.
 
 # Education
 
-- Southern University of Science and Technology: B.Eng. in Computer Science and Technology, Sept. 2018 - Present
-  - In Software Quality Lab (SQLab), supervised by Prof. Yepang Liu
-  - GPA Top 5% ranking in class
+- Southern University of Science and Technology, Sept. 2018 - Present
+  - B.Eng. in Computer Science and Technology (GPA top 5%)
+  - In Software Quality Laboratory (SQLab), supervised by Prof. Yepang Liu
 
 # Honors and Awards
 
@@ -27,7 +27,9 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 # Research Experience
 
 - Empirical software engineering
+
 - Automated restoration of archaeological artifacts
+
 - Web testing
 
 # Teaching and Services
@@ -44,7 +46,7 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 
 # Work Experience
 
-- Sept 2021 - Dec 2021: Software Testing Engineer Internship @ Lakala Payment Co., Ltd, Shenzhen
+- Software Testing Engineer Internship @ Lakala Payment Co., Ltd, Shenzhen, Sept 2021 - Dec 2021
   - Automated testing framework (functional testing, performance testing, stress testing, reliability testing)
   - Blockchain (HyperLedger Fabric) in Go
 
