@@ -29,7 +29,7 @@ Additionally, there are projects that out of class (out of my interest):
 - Out of interest and convenience, I developed this tool to automatically open the web URLs. [Automated Web Crawler](https://github.com/lethal233/subtle-utils)
 - Out of concern, I visualized the COVID-19 data in Wuhan: [C-19 in Wuhan](https://github.com/lethal233/Visualization-of-NCP-Data-in-Wuhan)
 
-The details are listed below:
+The overview of those project: 
 
 ## [VGA-Displayer](https://github.com/assign-D-D/simple_VGA)
 
