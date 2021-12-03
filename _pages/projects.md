@@ -23,11 +23,11 @@ Contains the following (class identifier order):
 - OOAD (CS309): [Database Online Judge System](https://github.com/Phantom-OJ)
 - Computer Security (CS315): [Explore SUSTech LAN Vulnerabilities](https://github.com/Phantom-OJ/CS315_THCipv6)
 
-Additionally, there is one more project: [HTTPS-traffic-capture-and-analysis](https://github.com/mitmproxy-https-analysis/session_capture)
+Additionally, there are projects that out of class (out of my interest):
 
-Out of interest and convenience, I developed this tool to automatically open the web URLs. [Automated Web Crawler](https://github.com/lethal233/subtle-utils)
-
-Out of concern, I visualized the COVID-19 data in Wuhan: [C-19 in Wuhan](https://github.com/lethal233/Visualization-of-NCP-Data-in-Wuhan)
+- [HTTPS-traffic-capture-and-analysis](https://github.com/mitmproxy-https-analysis/session_capture)
+- Out of interest and convenience, I developed this tool to automatically open the web URLs. [Automated Web Crawler](https://github.com/lethal233/subtle-utils)
+- Out of concern, I visualized the COVID-19 data in Wuhan: [C-19 in Wuhan](https://github.com/lethal233/Visualization-of-NCP-Data-in-Wuhan)
 
 The details are listed below:
 
