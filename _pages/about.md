@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) department of [SUSTech](https://www.sustech.edu.cn), under the supervision of [Prof. Yepang Liu](https://yepangliu.github.io) in SQLab research group. My research interest is related to software engineering. Currently, I am working on research projects in to web testing.
+I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) department of [SUSTech](https://www.sustech.edu.cn), under the supervision of [Prof. Yepang Liu](https://yepangliu.github.io) in SQLab research group. My research interest is related to software engineering. Currently, I am working on research projects in web testing.
 
 # Education
 
