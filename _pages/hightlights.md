@@ -10,8 +10,8 @@ This page records my highlight events.
 
 ## Taekwondo
 
-- 2 Dan Black Belt, with more than 9-year practice
-- Supervised by [Zhizhen Zhao](http://cntypx.com/index.php?p=teamshow&id=28&c_id=4)
+- 2 Dan Black Belt, with more than 9-year practice.
+- Supervised by [Zhizhen Zhao](http://cntypx.com/index.php?p=teamshow&id=28&c_id=4).
 
 ## Friendship
 
