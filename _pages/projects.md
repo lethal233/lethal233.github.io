@@ -12,7 +12,7 @@ This page aims for the collection of my course projects since 2018.
 
 Contains the following (class identifier order):
 
-- Digital Design (CS207): [VGA displayer](https://github.com/assign-D-D/simple_VGA)
+- Digital Design (CS207): [VGA controller](https://github.com/assign-D-D/simple_VGA)
 - Computer Application and System Design (CS209A): [sudoku & magic square](https://github.com/quantum-square)
 - Embedded System (CS301): [Wi-Fi communication based on STM32](https://github.com/CS301-sustech-zmfl/wifi-communication)
 - Operating System (CS302): [xv6-rust](https://github.com/CS301-sustech-zmfl/xv6-rust)
@@ -31,7 +31,7 @@ Additionally, there are projects that out of class (out of my interest):
 
 The overview of those project: 
 
-## [VGA-Displayer](https://github.com/assign-D-D/simple_VGA)
+## [VGA-controller](https://github.com/assign-D-D/simple_VGA)
 
 - Technical Stack: Verilog, Minisys development board, Python
 - Used serial port to transfer images/gif from laptop to the development board.
