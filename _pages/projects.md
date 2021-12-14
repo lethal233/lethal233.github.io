@@ -6,7 +6,7 @@ redirect_from:
   - /projects.html
 ---
 
-This page aims for the collection of my course projects since 2018.
+This page aims for the collection of my course projects since 2018. Also seen in [Collections of course projects and labs](https://github.com/lethal233/course-collections)
 
 **Now this page is near to be finished**
 
