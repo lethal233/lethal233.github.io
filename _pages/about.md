@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) department of [SUSTech](https://www.sustech.edu.cn), under the supervision of [Prof. Yepang Liu](https://yepangliu.github.io) in SQLab research group. My research interests are software engineering, software testing, and software security. Currently, I am working on research project in web testing.
+I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) department of [SUSTech](https://www.sustech.edu.cn), under the supervision of [Prof. Yepang Liu](https://yepangliu.github.io) in [Software Quality Laboratory](https://sqlab-sustech.github.io) research group. My research interests are software engineering, software testing and software security. Currently, I am working on research project of web testing.
 
 # Education
 
@@ -34,7 +34,7 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 
 # Teaching and Services
 
-- Co-maintainer and co-developer of the [SUSTech Application(飞跃手册)](https://sustech-application.com), Apr. 2021 -- Present
+- Co-maintainer and co-developer of the [SUSTech Application (南方科技大学飞跃手册)](https://sustech-application.com), Apr. 2021 -- Present
 
 - Teaching Assistant of CS102A: Introduction to Java Programming, SUSTech, Spring 2021
 
@@ -46,10 +46,10 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 
 # Work Experience
 
-- Software Testing Engineer Internship @ Lakala Payment Co., Ltd., Shenzhen, Sept 2021 - Dec 2021
-  - Automated testing framework (functional testing, performance testing, stress testing, reliability testing)
+- Software Testing Engineer Intern @ Lakala Payment Co., Ltd., Shenzhen, Sept. 2021 - Dec. 2021
+  - Automated testing framework (functional testing, performance testing, stress testing and reliability testing)
   - Blockchain (HyperLedger Fabric) in Go
 
 # Publications
 
-- One paper (I am one major author) in software engineering is being written, and it will be submitted to one top conference soon.
+- One paper (I am one of the major authors) in software engineering is being written, and it will be submitted to a conference soon.

@@ -8,8 +8,6 @@ redirect_from:
 
 This page aims for the collection of my course projects since 2018. Also seen in [Collections of course projects and labs](https://github.com/lethal233/course-collections)
 
-**Now this page is near to be finished**
-
 Contains the following (class identifier order):
 
 - Digital Design (CS207): [VGA controller](https://github.com/assign-D-D/simple_VGA)
@@ -23,11 +21,11 @@ Contains the following (class identifier order):
 - OOAD (CS309): [Database Online Judge System](https://github.com/Phantom-OJ)
 - Computer Security (CS315): [Explore SUSTech LAN Vulnerabilities](https://github.com/Phantom-OJ/CS315_THCipv6)
 
-Additionally, there are projects that out of class (out of my interest):
+Additionally, I have already done some projects out of interest:
 
-- [HTTPS-traffic-capture-and-analysis](https://github.com/mitmproxy-https-analysis/session_capture)
-- Out of interest and convenience, I developed this tool to automatically open the web URLs. [Automated Web Crawler](https://github.com/lethal233/subtle-utils)
-- Out of concern, I visualized the COVID-19 data in Wuhan: [C-19 in Wuhan](https://github.com/lethal233/Visualization-of-NCP-Data-in-Wuhan)
+- Analysis of the HTTPS traffic using man-in-the-midddle tool (mitmproxy): [HTTPS analysis](https://github.com/mitmproxy-https-analysis/session_capture)
+- Semi-automated tool for browsering (using keyboard shortcut): [Automated Web Crawler](https://github.com/lethal233/subtle-utils)
+- COVID-19 data visualization in Wuhan: [C-19 in Wuhan](https://github.com/lethal233/Visualization-of-NCP-Data-in-Wuhan)
 
 The overview of those project: 
 
