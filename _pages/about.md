@@ -18,11 +18,11 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 
 # Honors and Awards
 
-- The First Class (Top 5%) of the Merit Student Scholarship, SUSTech, Oct. 2019, 2020, 2021
+- The First Class (Top 5%) of the Merit Student Scholarship @ SUSTech in Oct. 2019, 2020, 2021
 
-- Outstanding Teaching Assistant, SUSTech, June 2021
+- Outstanding Teaching Assistant @ SUSTech in June 2021
 
-- Outstanding freshmen scholarship, Third Class, SUSTech, Nov. 2018
+- The Third Class of Outstanding freshmen scholarship @ SUSTech in Nov. 2018
 
 # Research Experience
 
