@@ -12,7 +12,7 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 
 # Education
 
-- Southern University of Science and Technology, Sept. 2018 - Present
+- Southern University of Science and Technology, 09/2018-Present
   - B.Eng. in Computer Science and Technology (GPA top 5%)
   - In Software Quality Laboratory (SQLab), supervised by Prof. Yepang Liu
 
@@ -24,7 +24,7 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 
 - The Third Class of Outstanding freshmen scholarship @ SUSTech in Nov. 2018
 
-# Research Experience
+# Research Experience  
 
 - Empirical software engineering
 
@@ -34,15 +34,15 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 
 # Teaching and Services
 
-- Co-maintainer and co-developer of the [SUSTech Application (南方科技大学飞跃手册)](https://sustech-application.com), Apr. 2021 -- Present
+- Co-maintainer and co-developer of the [SUSTech Application (南方科技大学飞跃手册)](https://sustech-application.com), 04/2021-Present
 
-- Teaching Assistant of CS102A: Introduction to Java Programming, SUSTech, Spring 2021
+- Teaching Assistant of CS102A: Introduction to Java Programming @ SUSTech Spring 2021
 
-- Student Assistant of Institute for Advanced Studies in Social Sciences, SUSTech, Sept. 2019 -- Aug. 2021
+- Student Assistant of Institute for Advanced Studies in Social Sciences @ SUSTech, 09/2019-08/2021
 
-- Teaching Assistant of CS207: Digital Logic, SUSTech, Fall 2020
+- Teaching Assistant of CS207: Digital Logic @ SUSTech, Fall 2020
 
-- Student Volunteer of the 42nd International Conference on Software Engineering (ICSE 20), June 2020
+- Student Volunteer of the 42nd International Conference on Software Engineering (ICSE 20), 06/2020
 
 # Work Experience
 
@@ -51,9 +51,9 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
   - Automated restoration of archaeological artifacts
   - Web testing
 
-- Software Testing Engineer Intern @ Lakala Payment Co., Ltd., Shenzhen, 09/2021-12/2021
+- Software Testing Engineer Intern @ Lakala Payment Co., Ltd. in Shenzhen, 09/2021-12/2021
   - Automated testing framework (functional testing, performance testing, stress testing and reliability testing) for blockchain application
 
 # Publications
 
-- One paper (I am one of the major authors) in software engineering is being written, and it will be submitted to a conference soon.
+- One paper (I am one of the major authors) in empirical software engineering is being written, and it will be submitted to a conference soon.
