@@ -8,6 +8,9 @@ redirect_from:
   - /about.html
 ---
 
+Farewell to 2021 and embrace 2022~
+
+
 I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) department of [SUSTech](https://www.sustech.edu.cn), under the supervision of [Prof. Yepang Liu](https://yepangliu.github.io) in [Software Quality Laboratory](https://sqlab-sustech.github.io) research group. My research interests are software engineering, software testing and software security. Currently, I am working on research project of web testing.
 
 # Education
