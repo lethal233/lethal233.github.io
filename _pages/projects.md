@@ -42,7 +42,7 @@ The overview of those project:
 
 - _This repository may not be open-source if you CANNOT see the codes._
 - Technical Stack: Java, Python, Javalin, Vue.js
-- Solver for sudoku and magic sqaure
+- Solver for sudoku and magic square.
 - Accelerated algorithm by evolutionary algorithm.
 - Designed a web application to display the live current chess board.
 
