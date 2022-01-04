@@ -19,35 +19,7 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
   - B.Eng. in Computer Science and Technology (GPA top 5%)
   - In Software Quality Laboratory (SQLab), supervised by Prof. Yepang Liu
 
-# Honors and Awards
-
-- The First Class (Top 5%) of the Merit Student Scholarship @ SUSTech in Oct. 2019, 2020, 2021
-
-- Outstanding Teaching Assistant @ SUSTech in June 2021
-
-- The Third Class of Outstanding freshmen scholarship @ SUSTech in Nov. 2018
-
-# Research Experience  
-
-- Empirical software engineering
-
-- Automated restoration of archaeological artifacts
-
-- Web testing
-
-# Teaching and Services
-
-- Co-maintainer and co-developer of the [SUSTech Application (南方科技大学飞跃手册)](https://sustech-application.com), 04/2021-Present
-
-- Teaching Assistant of CS102A: Introduction to Java Programming @ SUSTech Spring 2021
-
-- Student Assistant of Institute for Advanced Studies in Social Sciences @ SUSTech, 09/2019-08/2021
-
-- Teaching Assistant of CS207: Digital Logic @ SUSTech, Fall 2020
-
-- Student Volunteer of the 42nd International Conference on Software Engineering (ICSE 20), 06/2020
-
-# Work Experience
+# Experience
 
 - Undergraduate Research Assistant @ SUSTech, 09/2019-Present
   - Empirical software engineering
@@ -56,6 +28,27 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 
 - Software Testing Engineer Intern @ Lakala Payment Co., Ltd. in Shenzhen, 09/2021-12/2021
   - Automated testing framework (functional testing, performance testing, stress testing and reliability testing) for blockchain application
+
+# Honors and Awards
+
+- The First Class (5%) of the Merit Student Scholarship @ SUSTech in Oct. 2019, 2020, 2021
+- Outstanding Teaching Assistant @ SUSTech in June 2021
+- The Third Class of Outstanding freshmen scholarship @ SUSTech in Nov. 2018
+
+# Services
+
+- Teaching Assistant
+  - @SUSTech CS102A Introduction to Computer Programming A (Spring 2021, Spring 2022)
+  - @SUSTech CS207 Digital Logic (Fall 2020)
+- Student Assistant
+  - @SUSTech in Institute for Advanced Studies in Social Sciences (09/2019-08/2021)
+- Conference Volunteer
+  - The 42nd International Conference on Software Engineering (ICSE 20), 07/2020
+- Open source contributor
+  - Co-maintainer of [SUSTech Application (南方科技大学飞跃手册)](https://sustech-application.com)
+  - Contributor of [南科手册 sustech.online](https://sustech.online)
+  - Contributor of [fastjson](https://github.com/alibaba/fastjson)
+  - Contributor of [easyexcel](https://github.com/alibaba/easyexcel)
 
 # Publications
 
