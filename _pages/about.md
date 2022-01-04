@@ -27,7 +27,7 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
   - Web testing
 
 - Software Testing Engineer Intern @ Lakala Payment Co., Ltd. in Shenzhen, 09/2021-12/2021
-  - Automated testing framework (functional testing, performance testing, stress testing and reliability testing) for blockchain application
+  - Constructed the automated testing framework of a blockchain application
 
 # Honors and Awards
 
