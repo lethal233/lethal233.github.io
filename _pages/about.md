@@ -38,7 +38,7 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 # Services
 
 - Teaching Assistant
-  - @SUSTech CS102A Introduction to Computer Programming A (Spring 2021, Spring 2022)
+  - @SUSTech CS102A Introduction to Computer Programming A (Spring 2021, 2022)
   - @SUSTech CS207 Digital Logic (Fall 2020)
 - Student Assistant
   - @SUSTech in Institute for Advanced Studies in Social Sciences (09/2019-08/2021)
