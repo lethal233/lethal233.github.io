@@ -4,7 +4,7 @@ collection: teaching
 type: "Undergraduate course"
 permalink: /teaching/2022-spring-teaching-3
 venue: "SUSTech, CSE department"
-date: 2022
+date: 2022-01-14
 location: "Shenzhen, China"
 ---
 
