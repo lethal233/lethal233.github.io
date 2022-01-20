@@ -6,3 +6,5 @@ collection: portfolio
 ---
 
 <iframe src="//player.bilibili.com/player.html?bvid=BV1o34y1i7qF&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
+
+[VLog Link](https://www.bilibili.com/video/BV1o34y1i7qF/)
