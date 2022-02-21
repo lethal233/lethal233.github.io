@@ -50,6 +50,6 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
   - Contributor of [fastjson](https://github.com/alibaba/fastjson)
   - Contributor of [easyexcel](https://github.com/alibaba/easyexcel)
 
-# Publications
+<!-- # Publications
 
-- One paper (I am one of the major authors) in empirical software engineering is being written, and it will be submitted to a conference soon.
+- One paper (I am one of the major authors) in empirical software engineering is being written, and it will be submitted to a conference soon. -->
