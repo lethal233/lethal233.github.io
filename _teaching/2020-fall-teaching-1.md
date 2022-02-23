@@ -8,7 +8,7 @@ date: 2020-09-01
 location: "Shenzhen, China"
 ---
 
-This is my first teaching experience in SUSTech (more precisely, in SUSTech students like me are called student assistant).
+I am the TA of the course Digital Design at SUSTech (more precisely, students at SUSTech like me are called student assistant).
 
 Marking students' homework and final exam
 ======

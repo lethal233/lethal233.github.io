@@ -8,7 +8,7 @@ date: 2021-01-14
 location: "Shenzhen, China"
 ---
 
-This is my second teaching experience in SUSTech, where I was TA of lab course lectured by my supervisor Prof. Yepang Liu.
+I was TA of lab course lectured by Prof. Yepang Liu.
 
 Marking students' lab assignments and final exam
 ======
