@@ -8,7 +8,7 @@ redirect_from:
 
 This page aims for the collection of my course projects since 2018. Also seen in [Collections of course projects and labs](https://github.com/lethal233/course-collections)
 
-Contains the following (class identifier order):
+Contains the following (in class identifier's order):
 
 - Digital Design (CS207): [VGA controller](https://github.com/assign-D-D/simple_VGA)
 - Computer Application and System Design (CS209A): [sudoku & magic square](https://github.com/quantum-square)

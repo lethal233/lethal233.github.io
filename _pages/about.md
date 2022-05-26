@@ -15,13 +15,14 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 
 # Education
 
-- Southern University of Science and Technology, 09/2018-Present
-  - B.Eng. in Computer Science and Technology (GPA top 5%)
+- Southern University of Science and Technology, 09/2018-06/2022 (Expected)
+  - B.Eng. in Computer Science and Technology (Ranking: ~5%)
   - In Software Quality Laboratory (SQLab), supervised by Prof. Yepang Liu
+  - Final-Year Project topic: web testing via Selenium (IDE)
 
 # Experience
 
-- Undergraduate Research Assistant @ SUSTech, 09/2019-Present
+- Undergraduate Research Assistant @ SUSTech, 09/2019-06/2022
   - Empirical software engineering
   - Automated restoration of archaeological artifacts
   - Web testing
@@ -31,6 +32,7 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 
 # Honors and Awards
 
+- Outstanding Graudate @ SUSTech @ CSE @ Zhicheng College in 2022
 - The First Class (5%) of the Merit Student Scholarship @ SUSTech in Oct. 2019, 2020, 2021
 - Outstanding Teaching Assistant @ SUSTech in June 2021
 - The Third Class of Outstanding freshmen scholarship @ SUSTech in Nov. 2018
@@ -38,10 +40,10 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
 # Services
 
 - Teaching Assistant
-  - @SUSTech CS102A Introduction to Computer Programming A (Spring 2021, 2022)
-  - @SUSTech CS207 Digital Logic (Fall 2020)
+  - @ SUSTech CS102A Introduction to Computer Programming A (Spring 2021, 2022)
+  - @ SUSTech CS207 Digital Logic (Fall 2020)
 - Student Assistant
-  - @SUSTech in Institute for Advanced Studies in Social Sciences (09/2019-08/2021)
+  - @ SUSTech in Institute for Advanced Studies in Social Sciences (09/2019-08/2021)
 - Conference Volunteer
   - The 42nd International Conference on Software Engineering (ICSE 20), 07/2020
 - Open source contributor
@@ -49,7 +51,3 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
   - Contributor of [南科手册 sustech.online](https://sustech.online)
   - Contributor of [fastjson](https://github.com/alibaba/fastjson)
   - Contributor of [easyexcel](https://github.com/alibaba/easyexcel)
-
-<!-- # Publications
-
-- One paper (I am one of the major authors) in empirical software engineering is being written, and it will be submitted to a conference soon. -->
