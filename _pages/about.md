@@ -8,16 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) department at [SUSTech](https://www.sustech.edu.cn), under the supervision of [Asst. Prof. Yepang Liu](https://yepangliu.github.io) in [Software Quality Laboratory](https://sqlab-sustech.github.io) research group. My research interests are software engineering, software testing and software security. My final-year project is about web testing via Selenium (IDE). In 2022 Fall, I will pursue my Master degree at UC Irvine. I look forward to further research on software engineering.
+I am a senior undergraduate student at the [Department of Computer Science and Engineering](http://cse.sustech.edu.cn) of [SUSTech](https://www.sustech.edu.cn). My research interests are software testing and analysis. In 2022 Fall, I will pursue my MSc degree at the UC Irvine. I am looking forward to further research on software engineering.
 
 # Education
 
 - Southern University of Science and Technology, 09/2018-06/2022 (Expected)
   - B.Eng. in Computer Science and Technology (Ranking: ~5%)
-  - In Software Quality Laboratory (SQLab), supervised by Prof. Yepang Liu
-  - Final-Year Project topic: web testing via Selenium (IDE)
+  - In [Software Quality Laboratory](https://sqlab-sustech.github.io), supervised by [Prof. Yepang Liu](https://yepangliu.github.io)
+  - Final-year project: web testing via Selenium (IDE)
 
-# Experience
+# Experiences
 
 - Undergraduate Research Assistant @ SUSTech, 09/2019-06/2022
   - Empirical software engineering
@@ -25,14 +25,13 @@ I am a senior undergraduate student at the [CSE](http://cse.sustech.edu.cn) depa
   - Web testing
 
 - Software Testing Engineer Intern @ Lakala Payment Co., Ltd. in Shenzhen, 09/2021-12/2021
-  - Constructed the automated testing framework of a blockchain application
+  - Constructed the automated testing framework of a web application
 
 # Honors and Awards
 
-- Outstanding Graudate @ SUSTech @ CSE @ Zhicheng College in 2022
+- Outstanding Graudate @ SUSTech & CSE & Zhicheng College in 2022
 - The First Class (5%) of the Merit Student Scholarship @ SUSTech in Oct. 2019, 2020, 2021
 - Outstanding Teaching Assistant @ SUSTech in June 2021
-- The Third Class of Outstanding freshmen scholarship @ SUSTech in Nov. 2018
 
 # Services
 
