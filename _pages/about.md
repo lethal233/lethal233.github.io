@@ -12,7 +12,7 @@ I am a senior undergraduate student at the [Department of Computer Science and E
 
 # Education
 
-- Southern University of Science and Technology, 09/2018-06/2022 (Expected)
+- Southern University of Science and Technology, 09/2018-06/2022
   - B.Eng. in Computer Science and Technology (Ranking: ~5%)
   - In [Software Quality Laboratory](https://sqlab-sustech.github.io), supervised by [Prof. Yepang Liu](https://yepangliu.github.io)
   - Final-year project: web testing via Selenium (IDE)
@@ -29,6 +29,7 @@ I am a senior undergraduate student at the [Department of Computer Science and E
 
 # Honors and Awards
 
+- Outstanding Graduation Thesis @ SUSTech
 - Outstanding Graudate @ SUSTech & CSE & Zhicheng College in 2022
 - The First Class (5%) of the Merit Student Scholarship @ SUSTech in Oct. 2019, 2020, 2021
 - Outstanding Teaching Assistant @ SUSTech in June 2021
