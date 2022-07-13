@@ -3,8 +3,8 @@ main:
 
 #  - title: "Publications"
 #    url: /publications/
-  - title: "Highlights"
-    url: /highlights/
+  # - title: "Highlights"
+  #   url: /highlights/
 
   - title: "Projects"
     url: /projects/
@@ -20,6 +20,3 @@ main:
 
   - title: "CV"
     url: /files/cv_Shilong_Li_en.pdf
-
-#  - title: "Talks"
-#    url: /talks/

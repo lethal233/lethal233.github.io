@@ -84,7 +84,6 @@ The overview of those project:
 - Given 3,000 taxi trips over the course of one day in Shenzhen (coordinates, timestamp, whether it has passengers on it).
 - Data cleaning and data mining of these trips.
 - Visualized the trips using deck.gl, mapbox, and React.
-- Recorded by RTX 1660s.
 
 ## [mock-12306](https://github.com/Select-60321/select-60321)
 
@@ -95,7 +94,7 @@ The overview of those project:
 - Preprocessed the crawled data into what we want, and insert them into our designed database.
 - Support queries, purchase, refund, etc. of the train trips. 
 
-## [Database-SQL-Online-Judge-System--Phantom-OJ](https://github.com/Phantom-OJ)
+## [Database-SQL-Online-Judge-System (Phantom OJ)](https://github.com/Phantom-OJ)
 
 - **HIGHLIGHT: The largest project that I have ever done** (~7000 lines of code in backend development)
 - Technical Stack: Java, Redis, Spring Boot, Spring Security, MyBatis, PostgreSQL, Python, Docker, Vue.js
