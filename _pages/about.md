@@ -8,11 +8,14 @@ redirect_from:
   - /about.html
 ---
 
- I obtained my B.Eng. degree in Computer Science and Technology with honor from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn) in 2022. I have done many interesting projects about software testing and analysis at SUSTech. In 2022 Fall, I will pursue my M.S. degree at the UC Irvine. I am very looking forward to further study!
+ I am now a graduate student of Master of Science in Software Engineering at UC Irvine. In 2022, I obtained my B.Eng. degree in Computer Science and Technology with honor from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn). At SUSTech, I have done many interesting projects about software testing and analysis. 
 
- [Here](https://mp.weixin.qq.com/s/Lqbi2fH1h-9IjZinAtjncg) is my personal statement about my life in SUSTech (only in Chinese)
+ [Here](https://mp.weixin.qq.com/s/Lqbi2fH1h-9IjZinAtjncg) is my personal statement about my life at SUSTech (but only in Chinese version)
 
 # Education
+
+- University of California, Irvine, 09/2022-Present
+  - M.S in Software Engineering (MSSE)
 
 - Southern University of Science and Technology, 08/2018-07/2022
   - B.Eng. in Computer Science and Technology
