@@ -8,14 +8,15 @@ redirect_from:
   - /about.html
 ---
 
- I am now a graduate student of Master of Science in Software Engineering at UC Irvine. In 2022, I obtained my B.Eng. degree in Computer Science and Technology with honor from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn). At SUSTech, I have done many interesting projects about software testing and analysis. 
+ Hi, this is Shilong Li. I am now a Master of Science in Software Engineering student in the [Department of Informatics](https://www.informatics.uci.edu/) at the [University of California, Irvine](https://uci.edu/). In 2022, I obtained my B.Eng. degree in Computer Science and Technology with honor from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn).
 
  [Here](https://mp.weixin.qq.com/s/Lqbi2fH1h-9IjZinAtjncg) is my personal statement about my life at SUSTech (but only in Chinese version)
 
 # Education
 
 - University of California, Irvine, 09/2022-Present
-  - M.S in Software Engineering (MSSE)
+  - [M.S in Software Engineering](https://www.informatics.uci.edu/grad/ms-software-engineering/)
+  - Temporarily in [SpiderLab](http://spideruci.org/), supervised by [Prof. Jim Jones](https://jamesajones.com/)
 
 - Southern University of Science and Technology, 08/2018-07/2022
   - B.Eng. in Computer Science and Technology
@@ -38,6 +39,8 @@ redirect_from:
 
 # Services
 
+- UC Reader
+  - @ UC Irvine ICS 45J Programming in Java as a Second Language (Fall 2022)
 - Teaching Assistant
   - @ SUSTech CS102A Introduction to Computer Programming A (Spring 2021, 2022)
   - @ SUSTech CS207 Digital Logic (Fall 2020)
