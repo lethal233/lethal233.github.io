@@ -16,7 +16,7 @@ redirect_from:
 
 - University of California, Irvine, 09/2022-Present
   - [M.S in Software Engineering](https://www.informatics.uci.edu/grad/ms-software-engineering/)
-  - Temporarily in [SpiderLab](http://spideruci.org/), supervised by [Prof. Jim Jones](https://jamesajones.com/)
+  <!-- - Temporarily in [SpiderLab](http://spideruci.org/), supervised by [Prof. Jim Jones](https://jamesajones.com/) -->
 
 - Southern University of Science and Technology, 08/2018-07/2022
   - B.Eng. in Computer Science and Technology
@@ -39,12 +39,13 @@ redirect_from:
 
 # Services
 
-- UC Reader
+- Academic Student Employee -- [Reader](https://ap.uci.edu/ase/reader/)
   - @ UC Irvine ICS 45J Programming in Java as a Second Language (Fall 2022)
+  - @ UC Irvine ICS 45J Programming in Java as a Second Language (Winter 2023 pre-assigned)
 - Teaching Assistant
   - @ SUSTech CS102A Introduction to Computer Programming A (Spring 2021, 2022)
   - @ SUSTech CS207 Digital Logic (Fall 2020)
-- Student Assistant
+- Student Research Assistant
   - @ SUSTech in Institute for Advanced Studies in Social Sciences (09/2019-08/2021)
 - Conference Volunteer
   - The 42nd International Conference on Software Engineering (ICSE 20), 07/2020
