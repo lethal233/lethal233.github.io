@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
- Hi, this is Shilong Li. I am now a Master of Science in Software Engineering student in the [Department of Informatics](https://www.informatics.uci.edu/) at the [University of California, Irvine](https://uci.edu/). In 2022, I obtained my B.Eng. degree in Computer Science and Technology with honor from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn).
+ Hi, this is Shilong Li. I am now a Master of Science in Software Engineering student in the [Department of Informatics](https://www.informatics.uci.edu/) of [Donald Bren School of Informatics & Computer Sciences](https://www.ics.uci.edu/) at the [University of California, Irvine](https://uci.edu/). In 2022, I obtained my B.Eng. degree in Computer Science and Technology with honor from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn).
 
  [Here](https://mp.weixin.qq.com/s/Lqbi2fH1h-9IjZinAtjncg) is my personal statement about my life at SUSTech (but only in Chinese version)
 
