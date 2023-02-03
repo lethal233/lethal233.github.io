@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
- Hi, this is Shilong Li. I am now a Master of Science in Software Engineering student in the [Department of Informatics](https://www.informatics.uci.edu/) of [Donald Bren School of Informatics & Computer Sciences](https://www.ics.uci.edu/) at the [University of California, Irvine](https://uci.edu/). In 2022, I obtained my B.Eng. degree in Computer Science and Technology with honor from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn).
+ Hi welcome to my page! This is Shilong Li. I am now a Master of Science in Software Engineering student in the [Department of Informatics](https://www.informatics.uci.edu/) of [Donald Bren School of Informatics & Computer Sciences](https://www.ics.uci.edu/) at the [University of California, Irvine](https://uci.edu/). In 2022, I obtained my B.Eng. degree in Computer Science and Technology with honor from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn).
 
  [Here](https://mp.weixin.qq.com/s/Lqbi2fH1h-9IjZinAtjncg) is my personal statement about my life at SUSTech (but only in Chinese version)
 
@@ -16,11 +16,14 @@ redirect_from:
 
 - University of California, Irvine, 09/2022-Present
   - [M.S in Software Engineering](https://www.informatics.uci.edu/grad/ms-software-engineering/)
+  - GPA: 4.0/4.0
+  - Now working on Autonomous Driving Software Testing
   <!-- - Temporarily in [SpiderLab](http://spideruci.org/), supervised by [Prof. Jim Jones](https://jamesajones.com/) -->
 
 - Southern University of Science and Technology, 08/2018-07/2022
   - B.Eng. in Computer Science and Technology
-  - In [Software Quality Laboratory](https://sqlab-sustech.github.io), supervised by [Prof. Yepang Liu](https://yepangliu.github.io)
+  - GPA: 3.86/4.00 (ranking ~5%)
+  - In [Software Quality Laboratory](https://sqlab-sustech.github.io), advised by [Prof. Yepang Liu](https://yepangliu.github.io)
   - Graduation Thesis (**with honor**): A Record and Replay Framework for Web Application Testing
   - Outstanding Graduate Student Award
 
@@ -40,8 +43,9 @@ redirect_from:
 # Services
 
 - Academic Student Employee -- [Reader](https://ap.uci.edu/ase/reader/)
+  - @ UC Irvine INF 113 Requirements Analysis and Engineering (Spring 2023 [pre assigned])
+  - @ UC Irvine ICS 45J Programming in Java as a Second Language (Winter 2023)
   - @ UC Irvine ICS 45J Programming in Java as a Second Language (Fall 2022)
-  - @ UC Irvine ICS 45J Programming in Java as a Second Language (Winter 2023 pre-assigned)
 - Teaching Assistant
   - @ SUSTech CS102A Introduction to Computer Programming A (Spring 2021, 2022)
   - @ SUSTech CS207 Digital Logic (Fall 2020)
