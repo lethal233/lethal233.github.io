@@ -8,7 +8,13 @@ redirect_from:
   - /about.html
 ---
 
- Hi welcome to my page! This is Shilong Li. I am now a Master of Science in Software Engineering student in the [Department of Informatics](https://www.informatics.uci.edu/) of [Donald Bren School of Informatics & Computer Sciences](https://www.ics.uci.edu/) at the [University of California, Irvine](https://uci.edu/). In 2022, I obtained my B.Eng. degree in Computer Science and Technology with honor from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn).
+
+
+ Hi welcome to my page! This is Shilong Li. I am now a Master of Science in Software Engineering student in the [Department of Informatics](https://www.informatics.uci.edu/) of [Donald Bren School of Informatics & Computer Sciences](https://www.ics.uci.edu/) at the [University of California, Irvine](https://uci.edu/). In 2022, I obtained my B.Eng. degree in Computer Science and Technology with honor from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn). I have experience as a Software Engineer Intern at Lakala Payment Co., Ltd., where I contributed to constructing an automated testing framework and enhancing the system's security. As an Undergraduate Research Assistant at SUSTech, I was involved in various research projects spanning web testing, empirical software studies, and cross-disciplinary studies.
+
+My technical skills include various programming languages, frameworks, and tools such as Java, Python, Golang, SQL, C/C++, Kotlin, HTML/CSS, JavaScript, Spring Boot, MyBatis, JUnit, Selenium, Soot, Heros, Git, Maven, Gradle, Docker, Django, Apollo, Redis, Vim, AWS, WireShark, mitmproxy, TravisCI, React, Node.js, and Vue.js. These skills enable me to create efficient, scalable, and maintainable software systems.
+
+I have worked on numerous projects, including the development of a Simple Search Engine that efficiently crawled, stored, and ranked websites; Fuzzy Replay for Web UI Testing, which improved the automation and effectiveness of web testing; and making significant contributions to the open-source community by fixing issues in popular repositories. Other projects include Taxi Trip Visualization, Network Traffic Analysis for monitoring and securing network traffic, and the creation of Phantom OJ, an online assessment system that streamlines grading and offers a multi-secured, multi-authority environment. My work demonstrates a strong background in software engineering, programming, and research, showcasing my ability to tackle diverse challenges in the field.
 
  [Here](https://mp.weixin.qq.com/s/Lqbi2fH1h-9IjZinAtjncg) is my personal statement about my life at SUSTech (but only in Chinese version)
 
@@ -18,7 +24,6 @@ redirect_from:
   - [M.S in Software Engineering](https://www.informatics.uci.edu/grad/ms-software-engineering/)
   - GPA: 4.0/4.0
   - Now working on Autonomous Driving Software Testing
-  <!-- - Temporarily in [SpiderLab](http://spideruci.org/), supervised by [Prof. Jim Jones](https://jamesajones.com/) -->
 
 - Southern University of Science and Technology, 08/2018-07/2022
   - B.Eng. in Computer Science and Technology
