@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-
+UPDATE: I am constructing a new personal page, and you can see a temporary version [here](https://shilonl.github.io).
 
  Hi welcome to my page! This is Shilong Li. I am now a Master of Science in Software Engineering student in the [Department of Informatics](https://www.informatics.uci.edu/) of [Donald Bren School of Informatics & Computer Sciences](https://www.ics.uci.edu/) at the [University of California, Irvine](https://uci.edu/). In 2022, I obtained my B. Eng. Degree in Computer Science and Technology with honor from the [Southern University of Science and Technology (SUSTech)](https://www.sustech.edu.cn). I have experience as a Software Engineer Intern at Lakala Payment Co., Ltd., where I contributed to constructing an automated testing framework and enhancing the system's security. As an Undergraduate Research Assistant at SUSTech, I was involved in various research projects spanning web testing, empirical software studies, and cross-disciplinary studies.
 
