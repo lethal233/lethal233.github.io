@@ -18,7 +18,7 @@ My professional journey includes a stint as a QA Intern at Authentic8 Inc., wher
 
 Previously, I interned as a Software Engineer at Lakala Payment Co. Ltd., where I helped develop a test automation framework, significantly improved application efficiency, and contributed to a more efficient CI/CD pipeline.
 
-I have also undertaken several impactful projects. These include developing a Search Engine using Django and Vue.js, creating a Record and Replay Framework for Web Testing, contributing to open-source projects, and architecting an Online Assessment System.
+I have worked on numerous projects, including the development of a Simple Search Engine that efficiently crawled, stored, and ranked websites; Fuzzy Replay for Web UI Testing, which improved the automation and effectiveness of web testing; and making significant contributions to the open-source community by fixing issues in popular repositories. Other projects include Taxi Trip Visualization, Network Traffic Analysis for monitoring and securing network traffic, and the creation of Phantom OJ, an online assessment system that streamlines grading and offers a multi-secured, multi-authority environment. My work demonstrates a strong background in software engineering, programming, and research, showcasing my ability to tackle diverse challenges in the field.
 
 I'm always eager to apply my skills to challenging problems and contribute to the advancement of technology in software engineering.
 
