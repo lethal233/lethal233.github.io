@@ -8,26 +8,21 @@ redirect_from:
   - /about.html
 ---
 
-<!-- UPDATE: I am constructing a new personal page, and you can see a temporary version [here](https://shilonl.github.io). -->
+**NEWS** [04/15/2024]: Our paper [Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems](https://2024.esec-fse.org/details/fse-2024-research-papers/52/Misconfiguration-Software-Testing-for-Failure-Emergence-in-Autonomous-Driving-Systems) has been accepted by [FSE 2024](https://2024.esec-fse.org/).
 
-Hello! I'm Shilong Li, a passionate and dedicated Software Engineer currently pursuing my Master of Science in Software Engineering at the [University of California, Irvine](https://uci.edu/).
 
-I hold a honored Bachelor of Engineering in Computer Science from the Southern University of Science and Technology ([SUSTech](https://www.sustech.edu.cn)). My technical expertise spans a wide range of programming languages including Java, Python, Golang, and several others. I'm also proficient in various frameworks and tools like Spring Boot, MyBatis, JUnit, Selenium, and more.
 
-My professional journey includes a stint as a QA Intern at Authentic8 Inc., where I played a crucial role in enhancing product quality through manual and automated testing and contributing to the automation framework. At the University of California, Irvine, I've been making a difference as a Teaching Assistant/Grader, mentoring students and grading assignments for a class of over 200.
+Hello! I'm Shilong Li, a second-year Master student in Software Engineering at the [University of California, Irvine](https://uci.edu/). My research interests are autonomous driving systems and software testing and analysis.
 
-Previously, I interned as a Software Engineer at Lakala Payment Co. Ltd., where I helped develop a test automation framework, significantly improved application efficiency, and contributed to a more efficient CI/CD pipeline.
+In 2022, I hold a honored Bachelor of Engineering in Computer Science from the Southern University of Science and Technology ([SUSTech](https://www.sustech.edu.cn)). I was doing research with Professor Yepang Liu.
 
-I have worked on numerous projects, including the development of a Simple Search Engine that efficiently crawled, stored, and ranked websites; Fuzzy Replay for Web UI Testing, which improved the automation and effectiveness of web testing; and making significant contributions to the open-source community by fixing issues in popular repositories. Other projects include Taxi Trip Visualization, Network Traffic Analysis for monitoring and securing network traffic, and the creation of Phantom OJ, an online assessment system that streamlines grading and offers a multi-secured, multi-authority environment. My work demonstrates a strong background in software engineering, programming, and research, showcasing my ability to tackle diverse challenges in the field.
-
-I'm always eager to apply my skills to challenging problems and contribute to the advancement of technology in software engineering.
 
  [Here](https://mp.weixin.qq.com/s/Lqbi2fH1h-9IjZinAtjncg) is my personal statement about my life at SUSTech (but only in Chinese version)
 
 # Education
 
 - University of California, Irvine, 09/2022-Present
-  - [M.S in Software Engineering](https://www.informatics.uci.edu/grad/ms-software-engineering/)
+  - [M.S. in Software Engineering](https://www.informatics.uci.edu/grad/ms-software-engineering/)
   - GPA: 4.0/4.0
   - Working with [Prof. Joshua Garcia](https://jgarcia.ics.uci.edu/) on simulation testing of Autonomous Driving Software
 
@@ -36,6 +31,10 @@ I'm always eager to apply my skills to challenging problems and contribute to th
   - GPA: 3.86/4.00 (ranking ~5%)
   - In [Software Quality Laboratory](https://sqlab-sustech.github.io), advised by [Prof. Yepang Liu](https://yepangliu.github.io)
   - Graduation Thesis (**with honor**): A Record and Replay Framework for Web Application Testing
+
+# Publications
+
+- [\[FSE 2024\] Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems](https://2024.esec-fse.org/details/fse-2024-research-papers/52/Misconfiguration-Software-Testing-for-Failure-Emergence-in-Autonomous-Driving-Systems)
 
 # Services
 
@@ -52,7 +51,9 @@ I'm always eager to apply my skills to challenging problems and contribute to th
 
 # Other Experiences
 
-- Academic Student Employee -- Teaching Assistant
+- Teaching Assistant
+  - @ UC Irvine INF 113 Requirements Analysis and Engineering (Spring 2024)
+  - @ UC Irvine ICS 45J Programming in Java as a Second Language (Winter 2023)
   - @ UC Irvine ICS 45J Programming in Java as a Second Language (Fall 2023)
   - @ UC Irvine INF 113 Requirements Analysis and Engineering (Spring 2023)
   - @ UC Irvine ICS 45J Programming in Java as a Second Language (Winter 2023)
