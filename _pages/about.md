@@ -24,13 +24,12 @@ In 2022, I hold a honored Bachelor of Engineering in Computer Science from the S
 - University of California, Irvine, 09/2022-Present
   - [M.S. in Software Engineering](https://www.informatics.uci.edu/grad/ms-software-engineering/)
   - GPA: 4.0/4.0
-  - Working with [Prof. Joshua Garcia](https://jgarcia.ics.uci.edu/) on simulation testing of Autonomous Driving Software
+  - Thesis: Transferring A Testing Technique Among Autonomous Driving Systems (Advisor: [Prof. Joshua Garcia](https://jgarcia.ics.uci.edu/))
 
 - Southern University of Science and Technology, 08/2018-07/2022
   - B.Eng. in Computer Science and Technology
   - GPA: 3.86/4.00 (ranking ~5%)
-  - In [Software Quality Laboratory](https://sqlab-sustech.github.io), advised by [Prof. Yepang Liu](https://yepangliu.github.io)
-  - Graduation Thesis (**with honor**): A Record and Replay Framework for Web Application Testing
+  - Thesis (**with honor**): A Record and Replay Framework for Web Application Testing (Advisor: [Prof. Yepang Liu](https://yepangliu.github.io))
 
 # Publications
 
