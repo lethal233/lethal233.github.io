@@ -33,7 +33,7 @@ In 2022, I hold a honored Bachelor of Engineering in Computer Science from the S
 
 # Publications
 
-- [\[FSE 2024\] Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems](https://2024.esec-fse.org/details/fse-2024-research-papers/52/Misconfiguration-Software-Testing-for-Failure-Emergence-in-Autonomous-Driving-Systems)
+- [\[FSE 2024\] Y. Chen, Y. Huai, __S. Li__, C. Hong, J. Garcia. Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems. The 32nd ACMInternational Conference on the Foundations of Software Engineering (FSE 2024). doi: [10.1145/3660792](https://2024.esec-fse.org/details/fse-2024-research-papers/52/Misconfiguration-Software-Testing-for-Failure-Emergence-in-Autonomous-Driving-Systems)
 
 # Services
 
