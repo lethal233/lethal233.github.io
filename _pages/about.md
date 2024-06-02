@@ -33,12 +33,12 @@ In 2022, I hold a honored Bachelor of Engineering in Computer Science from the S
 
 # Publications
 
-- [\[FSE 2024\] Y. Chen, Y. Huai, __S. Li__, C. Hong, J. Garcia. Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems. The 32nd ACMInternational Conference on the Foundations of Software Engineering (FSE 2024). doi: [10.1145/3660792](https://2024.esec-fse.org/details/fse-2024-research-papers/52/Misconfiguration-Software-Testing-for-Failure-Emergence-in-Autonomous-Driving-Systems)
+- \[FSE 2024\] Y. Chen, Y. Huai, <u>__S. Li__</u>, C. Hong, J. Garcia. Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems. The 32nd ACMInternational Conference on the Foundations of Software Engineering (FSE 2024). doi: [10.1145/3660792](https://2024.esec-fse.org/details/fse-2024-research-papers/52/Misconfiguration-Software-Testing-for-Failure-Emergence-in-Autonomous-Driving-Systems)
 
 # Services
 
 - Foster Volunteer @ Irvine Animal Care Center, 10/2023 -- Present
-  - See my foster cats on [IG Story](https://instagram.com/_shilongli)
+  - See my foster cats & dogs on [IG Story](https://instagram.com/_shilongli)
 
 # Working Experiences
 
