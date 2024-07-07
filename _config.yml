@@ -84,8 +84,8 @@ author:
   location: "Irvine, CA, USA"
   employer:
   pubmed: # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar: # "http://yourfullgooglescholarurl.com"
-  email: "shilong.li213@gmail.com"
+  googlescholar: "https://scholar.google.com/citations?user=OuQTuoEAAAAJ"
+  email: "shilong.li213_AT_gmail.com"
   researchgate: # example: "https://www.researchgate.net/profile/yourprofile"
   uri:
   bitbucket:
@@ -101,7 +101,7 @@ author:
   impactstory: #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm:
   linkedin: "shilong-li"
-  orcid: # "http://orcid.org/yourorcidurl"
+  orcid: "https://orcid.org/0009-0006-8875-983X"
   pinterest:
   soundcloud:
   stackoverflow: # http://stackoverflow.com/users/123456/username

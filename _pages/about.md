@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-**NEWS** [04/15/2024]: Our paper [Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems](https://2024.esec-fse.org/details/fse-2024-research-papers/52/Misconfiguration-Software-Testing-for-Failure-Emergence-in-Autonomous-Driving-Systems) has been accepted by [FSE 2024](https://2024.esec-fse.org/).
+**NEWS** [04/15/2024]: Our paper [Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems](https://lethal233.github.io/files/fse24-final.pdf) has been accepted by [FSE '24](https://2024.esec-fse.org/details/fse-2024-research-papers/52/Misconfiguration-Software-Testing-for-Failure-Emergence-in-Autonomous-Driving-Systems).
 
 
 
