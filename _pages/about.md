@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-**NEWS** [04/15/2024]: Our paper [Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems](https://lethal233.github.io/files/fse24-final.pdf) has been accepted by [FSE '24](https://2024.esec-fse.org/details/fse-2024-research-papers/52/Misconfiguration-Software-Testing-for-Failure-Emergence-in-Autonomous-Driving-Systems).
+**NEWS** [04/15/2024]: Our paper [Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems](https://dl.acm.org/doi/10.1145/3660792) has been accepted by [FSE '24](https://2024.esec-fse.org/details/fse-2024-research-papers/52/Misconfiguration-Software-Testing-for-Failure-Emergence-in-Autonomous-Driving-Systems).
 
 
 
@@ -33,7 +33,7 @@ In 2022, I hold a honored Bachelor of Engineering in Computer Science from the S
 
 # Publications
 
-- \[FSE 2024\] Y. Chen, Y. Huai, <u>S. Li</u>, C. Hong, J. Garcia. Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems. The 32nd ACM International Conference on the Foundations of Software Engineering (FSE 2024). doi: [10.1145/3660792](https://2024.esec-fse.org/details/fse-2024-research-papers/52/Misconfiguration-Software-Testing-for-Failure-Emergence-in-Autonomous-Driving-Systems)
+- \[FSE 2024\] Y. Chen, Y. Huai, <u>S. Li</u>, C. Hong, J. Garcia. Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems. The 32nd ACM International Conference on the Foundations of Software Engineering (FSE 2024). doi: [10.1145/3660792](https://dl.acm.org/doi/10.1145/3660792)
 
 # Services
 
