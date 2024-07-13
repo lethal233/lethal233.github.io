@@ -21,7 +21,7 @@ In 2022, I hold a honored Bachelor of Engineering in Computer Science from the S
 
 # Education
 
-- University of California, Irvine, 09/2022-Present
+- University of California, Irvine, 09/2022-06/2024
   - [M.S. in Software Engineering](https://www.informatics.uci.edu/grad/ms-software-engineering/)
   - GPA: 4.0/4.0
   - Thesis: Transferring A Testing Technique Among Autonomous Driving Systems (Advisor: [Prof. Joshua Garcia](https://jgarcia.ics.uci.edu/))
