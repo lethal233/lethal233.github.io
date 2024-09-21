@@ -8,16 +8,10 @@ redirect_from:
   - /about.html
 ---
 
-**NEWS** [04/15/2024]: Our paper [Misconfiguration Software Testing for Failure Emergence in Autonomous Driving Systems](https://dl.acm.org/doi/10.1145/3660792) has been accepted by [FSE '24](https://2024.esec-fse.org/details/fse-2024-research-papers/52/Misconfiguration-Software-Testing-for-Failure-Emergence-in-Autonomous-Driving-Systems).
-
-
-
-Hello! I'm Shilong Li, a second-year Master student in Software Engineering at the [University of California, Irvine](https://uci.edu/). My research interests are autonomous driving systems and software testing and analysis.
+Hello! I'm Shilong Li. I hold my Master's degree in Software Engineering the [University of California, Irvine](https://uci.edu/). My research interests are autonomous driving systems and software testing and analysis.
 
 In 2022, I hold a honored Bachelor of Engineering in Computer Science from the Southern University of Science and Technology ([SUSTech](https://www.sustech.edu.cn)). I was doing research with Professor Yepang Liu.
 
-
- [Here](https://mp.weixin.qq.com/s/Lqbi2fH1h-9IjZinAtjncg) is my personal statement about my life at SUSTech (but only in Chinese version)
 
 # Education
 
