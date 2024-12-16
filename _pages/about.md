@@ -8,16 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Hello! I'm Shilong Li. I hold my Master's degree in Software Engineering the [University of California, Irvine](https://uci.edu/). My research interests are autonomous driving systems and software testing and analysis.
 
-In 2022, I hold a honored Bachelor of Engineering in Computer Science from the Southern University of Science and Technology ([SUSTech](https://www.sustech.edu.cn)). I was doing research with Professor Yepang Liu.
+Hi, I'm Shilong Li. I hold a Master's in Software Engineering from University of California, Irvine, with research focused on autonomous driving systems and software testing. In 2022, I earned an Honored Bachelor's in Computer Science from Southern University of Science and Technology, where I conducted research on web application testing.
 
 
 # Education
 
 - University of California, Irvine, 09/2022-06/2024
   - [M.S. in Software Engineering](https://www.informatics.uci.edu/grad/ms-software-engineering/)
-  - GPA: 4.0/4.0
   - Thesis: Transferring A Testing Technique Among Autonomous Driving Systems (Advisor: [Prof. Joshua Garcia](https://jgarcia.ics.uci.edu/))
 
 - Southern University of Science and Technology, 08/2018-07/2022

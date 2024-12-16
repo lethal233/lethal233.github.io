@@ -81,12 +81,12 @@ author:
   name: "Shilong Li"
   avatar: "avatar.JPG"
   bio: "Persistence and determination alone are omnipotent"
-  location: "Irvine, CA, USA"
+  location: "Chevy Chase, MD, USA"
   employer:
   pubmed: # "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar: "https://scholar.google.com/citations?user=OuQTuoEAAAAJ"
-  email: "shilong.li213_AT_gmail.com"
-  researchgate: # example: "https://www.researchgate.net/profile/yourprofile"
+  email: # "shilong.li213_AT_gmail.com"
+  researchgate: "https://www.researchgate.net/profile/Shilong-Li-21"
   uri:
   bitbucket:
   codepen:
