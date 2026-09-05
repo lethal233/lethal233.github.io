@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="termBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a"/>
+      <stop offset="100%" stop-color="#020617"/>
+    </linearGradient>
+    <linearGradient id="termNeon" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8"/>
+      <stop offset="100%" stop-color="#818cf8"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="16" fill="url(#termBg)" stroke="#38bdf8" stroke-width="2" stroke-opacity="0.35"/>
+  <!-- Terminal Prompt > -->
+  <polyline points="16,18 32,32 16,46" fill="none" stroke="url(#termNeon)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Terminal Underscore _ -->
+  <line x1="36" y1="46" x2="50" y2="46" stroke="#38bdf8" stroke-width="6.5" stroke-linecap="round"/>
+</svg>

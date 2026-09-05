@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shilong Li | Software Engineer & Researcher</title>
+  
+  <meta name="description" content="Shilong Li is an R&D Analyst at GEICO with an M.S. in Software Engineering from UC Irvine and B.Eng. from SUSTech, based in the Washington-Baltimore Area. Experienced in data-centered software engineering, analytics engineering, software reliability, and autonomous systems.">
+  <meta name="author" content="Shilong Li">
+
+  <!-- OpenGraph / Social Meta -->
+  <meta property="og:title" content="Shilong Li | Software Engineer & Researcher">
+  <meta property="og:description" content="R&D Analyst @ GEICO · M.S. in Software Engineering from UC Irvine · Washington-Baltimore Area · Data-centered software engineering, analytics, and autonomous systems.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://lethal233.github.io/">
+  <meta property="og:image" content="images/portfolio/astrophotography/milky_way.jpg">
+
+  <!-- Google Fonts: Inter, Space Grotesk, JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Space+Grotesk:wght@600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Favicon (Inline SVG Data URI + Cache-Busted Fallback) -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Cdefs%3E%3ClinearGradient id='termBg' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%230f172a'/%3E%3Cstop offset='100%25' stop-color='%23020617'/%3E%3C/linearGradient%3E%3ClinearGradient id='termNeon' x1='0%25' y1='0%25' x2='100%25' y2='100%25'%3E%3Cstop offset='0%25' stop-color='%2338bdf8'/%3E%3Cstop offset='100%25' stop-color='%23818cf8'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='64' height='64' rx='16' fill='url(%23termBg)' stroke='%2338bdf8' stroke-width='2' stroke-opacity='0.35'/%3E%3Cpolyline points='16,18 32,32 16,46' fill='none' stroke='url(%23termNeon)' stroke-width='6.5' stroke-linecap='round' stroke-linejoin='round'/%3E%3Cline x1='36' y1='46' x2='50' y2='46' stroke='%2338bdf8' stroke-width='6.5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="alternate icon" type="image/svg+xml" href="favicon.svg?v=3">
+  <link rel="apple-touch-icon" href="favicon.svg?v=3">
+
+  <!-- Leaflet Map CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Animated Tech Glows & Grid -->
+  <div class="ambient-bg" aria-hidden="true">
+    <div class="ambient-grid"></div>
+    <div class="ambient-orb orb-1"></div>
+    <div class="ambient-orb orb-2"></div>
+    <div class="ambient-orb orb-3"></div>
+  </div>
+
+  <!-- Sticky Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="#" class="nav-brand">
+        <span class="brand-dot"></span>
+        <span id="nav-brand-name">Shilong Li</span>
+      </a>
+
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#section-experience" class="nav-link">Experience</a></li>
+          <li><a href="#section-publications" class="nav-link">Publications</a></li>
+          <li><a href="#section-education" class="nav-link">Education</a></li>
+          <li><a href="#section-skills" class="nav-link">Skills</a></li>
+          <li><a href="#section-hobbies" class="nav-link">Photography & Life</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Terminal Launcher -->
+        <button class="btn-icon" id="terminal-launcher-btn" title="Open Interactive Terminal (Cmd+K)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <polyline points="4 17 10 11 4 5"></polyline>
+            <line x1="12" y1="19" x2="20" y2="19"></line>
+          </svg>
+        </button>
+
+        <!-- Dark/Light Theme Toggle -->
+        <button class="btn-icon" id="theme-toggle-btn" title="Toggle Light/Dark Theme">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <circle cx="12" cy="12" r="5"></circle>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <div id="hero-status" class="status-pill">
+            <span class="status-indicator"></span>
+            <span>Loading status...</span>
+          </div>
+
+          <h1 class="hero-title">
+            Hi, I'm <span class="gradient-text" id="hero-name">Shilong Li</span>
+          </h1>
+
+          <div class="hero-tagline-wrapper">
+            <span id="hero-tagline" class="hero-tagline"></span><span class="typewriter-cursor"></span>
+          </div>
+
+          <p id="hero-bio" class="hero-bio">
+            Loading profile information...
+          </p>
+
+          <div id="hero-actions" class="hero-actions">
+            <!-- Populated via data/content.js -->
+          </div>
+
+          <div id="hero-social-links" class="social-links">
+            <!-- Populated via data/content.js -->
+          </div>
+        </div>
+
+        <!-- Avatar Card -->
+        <div class="avatar-card">
+          <div class="avatar-wrapper">
+            <img id="hero-avatar-img" class="avatar-img" src="images/profile/avatar.jpg" alt="Shilong Li">
+          </div>
+          <div id="avatar-location" class="avatar-badge">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Quick Highlights Banner -->
+    <section class="highlights-section">
+      <div class="container">
+        <div id="highlights-container" class="highlights-grid">
+          <!-- Populated via data/content.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Work & Research Experience -->
+    <section class="section" id="section-experience">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Career Timeline</span>
+          <h2 class="section-title">Work & Research Experience</h2>
+          <p class="section-desc">Experience in enterprise R&D, data analytics & pipelines, software reliability, and autonomous systems.</p>
+        </div>
+
+        <!-- Experience Filters -->
+        <div class="filter-bar">
+          <button class="filter-btn exp-filter-btn active" data-filter="all">All Experiences</button>
+          <button class="filter-btn exp-filter-btn" data-filter="industry">Industry & R&D</button>
+          <button class="filter-btn exp-filter-btn" data-filter="research">Research</button>
+          <button class="filter-btn exp-filter-btn" data-filter="teaching">Teaching & Instruction</button>
+        </div>
+
+        <div id="experiences-container" class="timeline">
+          <!-- Populated via data/content.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Publications Section -->
+    <section class="section" id="section-publications">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Research</span>
+          <h2 class="section-title">Publications & Preprints</h2>
+          <p class="section-desc">Peer-reviewed publications in top-tier software engineering venues (ACM FSE).</p>
+        </div>
+
+        <div id="publications-container">
+          <!-- Populated via data/content.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Education Section -->
+    <section class="section" id="section-education">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Academic Foundations</span>
+          <h2 class="section-title">Education & Honors</h2>
+          <p class="section-desc">Graduate studies at UC Irvine and undergraduate CS honors at SUSTech.</p>
+        </div>
+
+        <div id="education-container" class="education-grid">
+          <!-- Populated via data/content.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Technical Skills Matrix -->
+    <section class="section" id="section-skills">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Technical Arsenal</span>
+          <h2 class="section-title">Skills & Competencies</h2>
+          <p class="section-desc">Data-centered software engineering, programming languages, software reliability, and autonomous vehicle platforms.</p>
+        </div>
+
+        <div id="skills-container" class="skills-grid">
+          <!-- Populated via data/content.js -->
+        </div>
+      </div>
+    </section>
+
+    <!-- Hobbies, Photography & Life -->
+    <section class="section" id="section-hobbies">
+      <div class="container">
+        <div class="section-header">
+          <span class="section-tag">Beyond The Code</span>
+          <h2 class="section-title">Photography, Fostering & Life</h2>
+          <p class="section-desc">What keeps me inspired outside of software engineering: landscape and astrophotography, animal rescue, and outdoor explorations.</p>
+        </div>
+
+        <!-- Animal Fostering Hero Card -->
+        <div id="fostering-container">
+          <!-- Populated via data/content.js -->
+        </div>
+
+        <!-- Photography Gallery -->
+        <div style="margin: 3.5rem 0 1.5rem;">
+          <h3 style="font-family: var(--font-heading); font-size: 1.5rem; margin-bottom: 0.5rem;">
+            📸 Landscape & Astrophotography Gallery
+          </h3>
+          <p style="color: var(--text-secondary); font-size: 0.95rem; margin-bottom: 1.5rem;">
+            A collection of moments captured across National Parks, remote night skies, and coastal landscapes. Click any photo for full-screen view.
+          </p>
+
+          <!-- Photo Category Filter -->
+          <div id="photo-filter-bar" class="photo-filter-bar">
+            <!-- Populated dynamically -->
+          </div>
+
+          <!-- Photo Grid -->
+          <div id="photo-grid-container" class="photo-grid">
+            <!-- Populated dynamically -->
+          </div>
+        </div>
+
+        <!-- Travel & Open Source Grid -->
+        <div id="travel-community-container" style="margin-top: 3.5rem;">
+          <!-- Populated dynamically -->
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <p id="footer-motto" class="footer-motto">"Persistence and determination alone are omnipotent."</p>
+      <p id="footer-copy" class="footer-copy"></p>
+    </div>
+  </footer>
+
+  <!-- Floating Terminal Launcher -->
+  <button class="terminal-float-btn" id="terminal-float-btn" title="Open Interactive Shell">
+    <span>>_</span>
+    <span>Terminal</span>
+    <span style="font-size: 0.75rem; opacity: 0.7; border: 1px solid rgba(56,189,248,0.3); padding: 1px 5px; border-radius: 4px;">⌘K</span>
+  </button>
+
+  <!-- Interactive Terminal Modal -->
+  <div class="terminal-modal" id="terminal-modal" role="dialog" aria-modal="true">
+    <div class="terminal-window">
+      <div class="terminal-header">
+        <div class="terminal-dots">
+          <span class="terminal-dot dot-red" id="terminal-close" style="cursor: pointer;" title="Close"></span>
+          <span class="terminal-dot dot-yellow"></span>
+          <span class="terminal-dot dot-green"></span>
+        </div>
+        <div class="terminal-title">shilong@portfolio:~ (bash)</div>
+        <div style="width: 40px;"></div>
+      </div>
+
+      <div class="terminal-body">
+        <div class="terminal-output" id="terminal-output"></div>
+
+        <div style="margin-bottom: 0.5rem; font-size: 0.75rem; color: var(--text-muted);">Quick commands:</div>
+        <div class="terminal-chips" id="terminal-chips"></div>
+
+        <div class="terminal-input-row">
+          <span class="terminal-prompt">$</span>
+          <input type="text" class="terminal-input" id="terminal-input" placeholder="Type a command (e.g. 'help', 'exp', 'photos', 'hire')..." autocomplete="off" spellcheck="false">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Fullscreen Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true">
+    <button class="lightbox-close" id="lightbox-close" title="Close Lightbox (Esc)">✕</button>
+    <button class="lightbox-nav lightbox-prev" id="lightbox-prev" title="Previous (Left Arrow)">❮</button>
+    <button class="lightbox-nav lightbox-next" id="lightbox-next" title="Next (Right Arrow)">❯</button>
+
+    <div class="lightbox-content">
+      <div class="lightbox-img-wrapper">
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Full view">
+      </div>
+      <div class="lightbox-caption">
+        <h4 id="lightbox-title"></h4>
+        <p id="lightbox-desc"></p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Leaflet Map Library -->
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
+  <!-- Single Source of Truth Configuration -->
+  <script src="data/content.js"></script>
+  <!-- Presentation and Interaction Logic -->
+  <script src="js/app.js"></script>
+
+</body>
+</html>

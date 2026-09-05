@@ -1,0 +1,15 @@
+{
+  "short_name": "Shilong",
+  "name": "Shilong Li - Personal Portfolio",
+  "start_url": "/",
+  "display": "standalone",
+  "theme_color": "#090d16",
+  "background_color": "#090d16",
+  "icons": [
+    {
+      "src": "favicon.svg?v=3",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
