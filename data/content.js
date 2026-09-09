@@ -35,14 +35,14 @@ window.PORTFOLIO_DATA = {
       "Data-Centered Software Engineering & Analytics",
       "R&D Analyst @ GEICO",
       "Software Engineering & Autonomous Systems Researcher",
-      "Landscape & Astro Photographer",
+      "Landscape & Astrophotographer",
       "Animal Rescue Foster Volunteer",
-      "Always learning & building"
+      "Always Learning & Building"
     ],
 
     motto: "Persistence and determination alone are omnipotent.",
 
-    about: `Hi! I'm Shilong Li, currently a Research and Development Analyst at GEICO based in the Washington-Baltimore area.
+    about: `Hi! I'm Shilong Li, currently a Research and Development Analyst at GEICO based in the Washington-Baltimore Area.
 
 My focus centers on data-centered software engineering—encompassing data governance, data engineering, analytics engineering, data analysis, and data-driven business strategy—alongside software testing automation, failure emergence, and autonomous driving systems.
 
@@ -68,7 +68,7 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
     {
       metric: "FSE '24 & '25",
       label: "Top-Tier SE Publications",
-      subtext: "First-tier software engineering research in ACM FSE"
+      subtext: "Autonomous driving & testing research published in ACM FSE"
     },
     {
       metric: "M.S. + B.Eng.",
@@ -78,12 +78,12 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
     {
       metric: "Industry & R&D",
       label: "GEICO & Authentic8",
-      subtext: "Full-cycle software engineering, R&D, and QA"
+      subtext: "Enterprise analytics engineering, data governance, and test automation"
     },
     {
       metric: "10+ Rescues",
       label: "Foster Volunteer",
-      subtext: "Irvine Animal Care Center companion animal fostering"
+      subtext: "Rescue animal foster home with Irvine Animal Care Center"
     }
   ],
 
@@ -100,7 +100,11 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
       location: "Bethesda, MD",
       period: "2025.01 - Present",
       isCurrent: true,
-      summary: "Driving data analytics engineering, data governance, and automated testing initiatives for enterprise R&D systems. Architecting and optimizing data-driven workflows, governance standards, and analytical pipelines across enterprise insurance systems.",
+      summary: "Driving data analytics engineering, enterprise data governance, and reliable data pipelines within GEICO's R&D organization.",
+      bullets: [
+        "Architecting scalable data models, automated validation frameworks, and analytics pipelines to support high-impact enterprise decision systems.",
+        "Establishing data governance standards, schema consistency, and end-to-end data quality checks across cloud data environments."
+      ],
       skills: ["Python", "SQL", "Git", "dbt", "Snowflake", "PowerBI", "Azure DevOps", "Data Engineering", "Data Analytics", "System Reliability", "Enterprise Systems"]
     },
     {
@@ -144,7 +148,7 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
       bullets: [
         "Developed a record and replay framework for modern asynchronous web application testing, recognized with the Outstanding Graduation Thesis Award (Honored Thesis).",
         "Analyzed event scheduling nondeterminism in client-side JavaScript applications to boost replay fidelity.",
-        "Awarded Outstanding Graduate Student Award & First-Class Merit Scholarships (top 5%)."
+        "Earned the Outstanding Graduate Student Award and First-Class Merit Scholarships for top 5% academic achievement."
       ],
       skills: ["JavaScript", "Record & Replay", "Web Testing", "Program Analysis"]
     },
@@ -155,7 +159,11 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
       company: "Lakala Payment Co., Ltd.",
       location: "Shenzhen, China",
       period: "2021.09 - 2021.12",
-      summary: "Engineered core backend payment services, high-concurrency API gateways, and distributed transaction monitoring.",
+      summary: "Engineered high-throughput backend services and distributed transaction monitoring for enterprise payment infrastructure.",
+      bullets: [
+        "Implemented microservices and API gateways in Go, handling high-concurrency payment processing and transaction verification.",
+        "Researched blockchain and distributed ledger technologies (Hyperledger Fabric) for secure cross-institution settlement workflows."
+      ],
       skills: ["Go", "Docker", "HyperLedger", "Distributed Systems"]
     },
     {
@@ -167,8 +175,8 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
       period: "2020.09 - 2022.06",
       summary: "Served as TA for CS102A (Introduction to Java Programming) and CS207 (Digital Logic).",
       bullets: [
-        "Awarded Outstanding Teaching Assistant in June 2021.",
-        "Assisted in lab sessions, hardware FPGA debugging, and programming assignment evaluations."
+        "Recognized as Outstanding Teaching Assistant in June 2021.",
+        "Led lab sessions, assisted students with hardware FPGA debugging, and evaluated programming assignments."
       ],
       skills: ["Java", "Digital Logic", "Verilog", "Student Mentorship"]
     }
@@ -251,7 +259,7 @@ keywords = {Bug-fix pattern, Autonomous driving systems, Empirical study}
         "Changnam Hong",
         "Joshua Garcia"
       ],
-      venue: "The 32nd ACM International Conference on the Foundations of Software Engineering (FSE 2024)",
+      venue: "ACM International Conference on the Foundations of Software Engineering (FSE 2024)",
       year: "2024",
       status: "Published",
       badge: "ACM FSE '24",
@@ -690,8 +698,8 @@ keywords = {Autonomous driving systems, Software configuration}
         "Zion National Park (UT)",
         "Bryce Canyon National Park (UT)",
         "Rocky Mountain National Park (CO)",
-        "California Highway 1",
-        "North Carolina Outer Banks (Highway 12)",
+        "California Highway 1 (CA)",
+        "North Carolina Outer Banks (NC)",
         "Horseshoe Bend & Glen Canyon (AZ)",
         "Mission San Juan Capistrano (CA)",
         "Hermosa Beach & Pier (CA)",
@@ -699,7 +707,7 @@ keywords = {Autonomous driving systems, Software configuration}
         "Blackwater National Wildlife Refuge (MD)",
         "Minnewaska State Park Preserve (NY)",
         "Cape May Point State Park (NJ)",
-        "First Landing State Park, Virginia Beach (VA)",
+        "First Landing State Park (VA)",
         "MD-25 Falls Road Scenic Byway (MD)",
         "Great Falls Park (MD/VA)",
         "Sky Meadows State Park (VA)",
@@ -719,7 +727,7 @@ keywords = {Autonomous driving systems, Software configuration}
       {
         name: "SUSTech Application & Campus Handbooks",
         role: "Core Contributor",
-        desc: "Co-authored and maintained sustech-application.com (南方科技大学飞跃手册) and sustech.online, assisting thousands of students in study-abroad preparation and university life."
+        desc: "Co-authored and maintained sustech-application.com (SUSTech Study-Abroad Guide) and sustech.online, assisting thousands of students in study-abroad preparation and university life."
       },
       {
         name: "ICSE 2020",
@@ -737,9 +745,9 @@ keywords = {Autonomous driving systems, Software configuration}
 Type 'help' to inspect available commands or click the suggestion chips.`,
     commands: {
       help: "Available commands:\n  • bio          - View brief autobiography\n  • exp          - List work & research experiences\n  • pub          - Show ACM FSE research publications\n  • skills       - Display categorized technical skills\n  • photos       - Jump to photography gallery\n  • map / travel - Open interactive National Parks & POI map\n  • foster       - View shelter animal foster story\n  • resume       - Open/Download PDF Resume\n  • contact      - View social & professional links\n  • clear        - Clear terminal output\n  • sudo hire-shilong - Submit instant recruitment offer 🚀",
-      bio: "Shilong Li - R&D Analyst @ GEICO | MS Software Engineering (UCI) | BS CS (SUSTech with Honors)\nBased in Washington-Baltimore Area. Focused on data-centered software engineering, analytics engineering, reliable systems, and autonomous driving.",
-      exp: "Experiences:\n  1. GEICO - R&D Analyst (2025.01 - Present)\n  2. UC Irvine - Teaching Assistant (2022.09 - 2024.06)\n  3. Authentic8 - QA Engineering Intern (2023.06 - 2023.09)\n  4. SUSTech - Undergraduate RA (2019.09 - 2022.06)\n  5. Lakala Payment - Software Engineer Intern (2021.09 - 2021.12)",
-      pub: "Publications:\n  • [FSE 2025] Bug-Fix Patterns in Autonomous Driving Systems (To Appear)\n  • [FSE 2024] Misconfiguration Software Testing for Failure Emergence in ADS (ACM DOI: 10.1145/3660792)",
+      bio: "Shilong Li - R&D Analyst @ GEICO | M.S. Software Engineering (UCI) | B.Eng. CS (SUSTech with Honors)\nBased in Washington-Baltimore Area. Focused on data-centered software engineering, analytics engineering, reliable systems, and autonomous driving.",
+      exp: "Experiences:\n  1. GEICO - Research and Development Analyst (2025.01 - Present)\n  2. UC Irvine - Graduate Teaching Assistant (2022.09 - 2024.06)\n  3. Authentic8 - QA Engineering Intern (2023.06 - 2023.09)\n  4. SUSTech - Undergraduate Research Assistant (2019.09 - 2022.06)\n  5. Lakala Payment - Software Engineer Intern (2021.09 - 2021.12)",
+      pub: "Publications:\n  • [FSE 2025] Bug-Fix Patterns in Autonomous Driving Systems (ACM DOI: 10.1145/3715733)\n  • [FSE 2024] Misconfiguration Software Testing for Failure Emergence in ADS (ACM DOI: 10.1145/3660792)",
       skills: "Data Engineering: Snowflake, dbt, PySpark, ELT, Data Modeling, Schema Design, Data Quality\nLanguages: Python, SQL, Java, Go, JavaScript, C#, Bash, R\nCloud & DevOps: Azure DevOps, GCP, AWS, Docker, Kubernetes, CI/CD, Jenkins\nAdvanced Analytics: Predictive Modeling, NLP, XGBoost, Random Forest, PyTorch\nFrameworks & Tools: Streamlit, React, Playwright, Selenium, Git, Postman, Jira\nAutonomous Systems: Apollo, Autoware, CARLA Simulator",
       photos: "Navigating to Photography Showcase: Astrophotography, Landscapes, and National Parks...",
       travel: "Exploration & Wilderness: 27+ visited National Parks, scenic byways, and points of interest across the United States. Navigating to Interactive Travel Map...",
