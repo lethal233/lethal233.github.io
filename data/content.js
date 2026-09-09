@@ -587,6 +587,94 @@ keywords = {Autonomous driving systems, Software configuration}
           coords: [33.8622, -118.4009],
           highlight: "Classic Southern California coastline, golden hour surf, and Pacific sunset reflections.",
           photoRef: "hermosa"
+        },
+        {
+          id: "edwin-b-forsythe",
+          name: "Edwin B. Forsythe National Wildlife Refuge",
+          state: "NJ",
+          category: "coastal",
+          coords: [39.4678, -74.4449],
+          highlight: "Expansive coastal salt marshes, scenic wildlife drive, and premier migratory bird haven along the Atlantic Flyway."
+        },
+        {
+          id: "blackwater-refuge",
+          name: "Blackwater National Wildlife Refuge",
+          state: "MD",
+          category: "coastal",
+          coords: [38.4419, -76.1158],
+          highlight: "The 'Everglades of the North' on the Chesapeake Bay, featuring tidal wetlands, bald eagle nesting, and scenic wildlife drive."
+        },
+        {
+          id: "minnewaska",
+          name: "Minnewaska State Park Preserve",
+          state: "NY",
+          category: "national-park",
+          coords: [41.7289, -74.2372],
+          highlight: "Dazzling white conglomerate cliffs, deep mountain sky lakes, dense hardwood forests, and sweeping Shawangunk Ridge vistas."
+        },
+        {
+          id: "cape-may-point",
+          name: "Cape May Point State Park",
+          state: "NJ",
+          category: "coastal",
+          coords: [38.9329, -74.9619],
+          highlight: "Historic 1859 Cape May Lighthouse, coastal dune trails, freshwater marshes, and famous raptor/monarch migration corridor."
+        },
+        {
+          id: "first-landing",
+          name: "First Landing State Park",
+          state: "VA",
+          category: "coastal",
+          coords: [36.9189, -76.0469],
+          highlight: "Chesapeake Bay maritime dune forest, bald cypress lagoons draped with Spanish moss, and serene sandy beaches."
+        },
+        {
+          id: "md-25",
+          name: "MD-25 (Falls Road Scenic Byway)",
+          state: "MD",
+          category: "scenic-drive",
+          coords: [39.4883, -76.6853],
+          highlight: "Historic scenic corridor winding through rural Maryland valleys, historic mill towns, and picturesque rolling horse country."
+        },
+        {
+          id: "great-falls",
+          name: "Great Falls Park",
+          state: "MD/VA",
+          category: "national-park",
+          coords: [38.9986, -77.2539],
+          highlight: "Dramatic Potomac River rapids plunging over jagged granite boulders into Mather Gorge along the Maryland & Virginia border."
+        },
+        {
+          id: "sky-meadows",
+          name: "Sky Meadows State Park",
+          state: "VA",
+          category: "national-park",
+          coords: [38.9889, -77.9625],
+          highlight: "Rolling pastures, Blue Ridge mountain ridge vistas, tranquil hiking trails, and direct connection to the Appalachian Trail."
+        },
+        {
+          id: "greenbelt-park",
+          name: "Greenbelt Park",
+          state: "MD",
+          category: "national-park",
+          coords: [38.9942, -76.8978],
+          highlight: "Peaceful 1,100-acre National Park Service woodland oasis in suburban Maryland with miles of tranquil forest hiking trails."
+        },
+        {
+          id: "gravelly-point",
+          name: "Gravelly Point",
+          state: "VA",
+          category: "poi",
+          coords: [38.8653, -77.0389],
+          highlight: "Iconic Potomac River waterfront park situated directly beneath the landing approach path of planes into Reagan National Airport."
+        },
+        {
+          id: "georgetown-waterfront",
+          name: "Georgetown Waterfront Park",
+          state: "DC",
+          category: "poi",
+          coords: [38.9031, -77.0608],
+          highlight: "Scenic Potomac River promenade with sweeping views of Theodore Roosevelt Island, Key Bridge, and historic Georgetown canals."
         }
       ],
       // Fallback string array for backward compatibility
@@ -606,7 +694,18 @@ keywords = {Autonomous driving systems, Software configuration}
         "North Carolina Outer Banks (Highway 12)",
         "Horseshoe Bend & Glen Canyon (AZ)",
         "Mission San Juan Capistrano (CA)",
-        "Hermosa Beach & Pier (CA)"
+        "Hermosa Beach & Pier (CA)",
+        "Edwin B. Forsythe National Wildlife Refuge (NJ)",
+        "Blackwater National Wildlife Refuge (MD)",
+        "Minnewaska State Park Preserve (NY)",
+        "Cape May Point State Park (NJ)",
+        "First Landing State Park, Virginia Beach (VA)",
+        "MD-25 Falls Road Scenic Byway (MD)",
+        "Great Falls Park (MD/VA)",
+        "Sky Meadows State Park (VA)",
+        "Greenbelt Park (MD)",
+        "Gravelly Point (VA)",
+        "Georgetown Waterfront Park (DC)"
       ]
     },
 
@@ -643,8 +742,8 @@ Type 'help' to inspect available commands or click the suggestion chips.`,
       pub: "Publications:\n  • [FSE 2025] Bug-Fix Patterns in Autonomous Driving Systems (To Appear)\n  • [FSE 2024] Misconfiguration Software Testing for Failure Emergence in ADS (ACM DOI: 10.1145/3660792)",
       skills: "Data Engineering: Snowflake, dbt, PySpark, ELT, Data Modeling, Schema Design, Data Quality\nLanguages: Python, SQL, Java, Go, JavaScript, C#, Bash, R\nCloud & DevOps: Azure DevOps, GCP, AWS, Docker, Kubernetes, CI/CD, Jenkins\nAdvanced Analytics: Predictive Modeling, NLP, XGBoost, Random Forest, PyTorch\nFrameworks & Tools: Streamlit, React, Playwright, Selenium, Git, Postman, Jira\nAutonomous Systems: Apollo, Autoware, CARLA Simulator",
       photos: "Navigating to Photography Showcase: Astrophotography, Landscapes, and National Parks...",
-      travel: "Exploration & Wilderness: 16+ visited National Parks, scenic byways, and points of interest across the United States. Navigating to Interactive Travel Map...",
-      map: "Exploration & Wilderness: 16+ visited National Parks, scenic byways, and points of interest across the United States. Navigating to Interactive Travel Map...",
+      travel: "Exploration & Wilderness: 27+ visited National Parks, scenic byways, and points of interest across the United States. Navigating to Interactive Travel Map...",
+      map: "Exploration & Wilderness: 27+ visited National Parks, scenic byways, and points of interest across the United States. Navigating to Interactive Travel Map...",
       foster: "Foster Volunteer @ Irvine Animal Care Center (2023 - 2024). Cared for 10+ shelter cats and dogs to prepare them for loving forever families! Check out Instagram @_shilongli for stories.",
       contact: "Connect with Shilong:\n  • LinkedIn: https://linkedin.com/in/shilong-li\n  • GitHub: https://github.com/lethal233\n  • Google Scholar: https://scholar.google.com/citations?user=OuQTuoEAAAAJ\n  • Instagram: https://www.instagram.com/_shilongli",
       hire: "✨ Access granted! Shilong is thrilled to connect about impactful engineering opportunities. Connect via LinkedIn: https://linkedin.com/in/shilong-li",
