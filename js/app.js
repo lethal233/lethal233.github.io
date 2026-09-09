@@ -397,11 +397,11 @@ function renderHobbies(hobbies) {
         <div>
           <span class="foster-badge">🐾 Animal Companion Fostering</span>
           <h3 class="foster-title">${escapeHtml(f.role)}</h3>
-          <div style="color: var(--accent-cyan); font-weight: 500; margin-bottom: 0.75rem;">
+          <div class="foster-meta">
             ${escapeHtml(f.organization)} (${escapeHtml(f.period)}) · ${escapeHtml(f.location)}
           </div>
           <p class="foster-story">${escapeHtml(f.story)}</p>
-          <a href="${escapeHtml(f.storyHighlightUrl || 'https://www.instagram.com/stories/highlights/17997739253052387/')}" target="_blank" rel="noopener" class="btn btn-secondary" style="font-size: 0.9rem;">
+          <a href="${escapeHtml(f.storyHighlightUrl || 'https://www.instagram.com/stories/highlights/17997739253052387/')}" target="_blank" rel="noopener" class="btn btn-secondary foster-btn" style="font-size: 0.9rem;">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>
             Follow Foster Stories on Instagram (${escapeHtml(f.instagramHandle)})
           </a>

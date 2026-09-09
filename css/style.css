@@ -64,6 +64,7 @@
   --accent-purple: #9333ea;
   --accent-emerald: #059669;
   --accent-amber: #d97706;
+  --accent-rose: #e11d48;
 
   --accent-gradient: linear-gradient(135deg, #0284c7 0%, #4f46e5 50%, #7c3aed 100%);
   --accent-glow: 0 0 20px rgba(2, 132, 199, 0.15);
@@ -1105,22 +1106,45 @@ body {
 
 /* Fostering & Volunteer Showcase */
 .foster-feature-card {
-  background: linear-gradient(135deg, rgba(22, 30, 49, 0.8) 0%, rgba(30, 41, 59, 0.6) 100%);
+  background: linear-gradient(135deg, rgba(22, 30, 49, 0.75) 0%, rgba(30, 41, 59, 0.55) 100%);
   border: 1px solid var(--border-subtle);
   border-radius: var(--radius-lg);
   padding: 2.25rem;
   margin-bottom: 2rem;
   display: grid;
   grid-template-columns: 1fr 280px;
-  gap: 2rem;
+  gap: 2.25rem;
   align-items: center;
+  position: relative;
+  overflow: hidden;
+  box-shadow: var(--card-shadow);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  transition: all var(--transition-normal);
+}
+
+.foster-feature-card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+  background: linear-gradient(180deg, var(--accent-rose) 0%, var(--accent-indigo) 100%);
+  border-radius: 4px 0 0 4px;
+}
+
+[data-theme="light"] .foster-feature-card {
+  background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+  border-color: rgba(15, 23, 42, 0.08);
+  box-shadow: 0 10px 30px -10px rgba(15, 23, 42, 0.06), 0 1px 3px rgba(15, 23, 42, 0.04);
 }
 
 .foster-badge {
   display: inline-flex;
   align-items: center;
   gap: 0.45rem;
-  padding: 0.3rem 0.85rem;
+  padding: 0.35rem 0.9rem;
   border-radius: var(--radius-full);
   background: rgba(244, 63, 94, 0.15);
   color: var(--accent-rose);
@@ -1131,12 +1155,30 @@ body {
   margin-bottom: 1rem;
 }
 
+[data-theme="light"] .foster-badge {
+  background: rgba(225, 29, 72, 0.08);
+  color: #be123c;
+  border-color: rgba(225, 29, 72, 0.22);
+}
+
 .foster-title {
   font-family: var(--font-heading);
-  font-size: 1.6rem;
+  font-size: 1.65rem;
   font-weight: 700;
   color: var(--text-primary);
-  margin-bottom: 0.6rem;
+  margin-bottom: 0.4rem;
+  line-height: 1.25;
+}
+
+.foster-meta {
+  color: var(--accent-cyan);
+  font-weight: 600;
+  font-size: 0.95rem;
+  margin-bottom: 0.85rem;
+}
+
+[data-theme="light"] .foster-meta {
+  color: #0284c7;
 }
 
 .foster-story {
@@ -1146,6 +1188,32 @@ body {
   margin-bottom: 1.5rem;
 }
 
+[data-theme="light"] .foster-story {
+  color: #334155;
+}
+
+.foster-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 500;
+  transition: all var(--transition-fast);
+}
+
+[data-theme="light"] .foster-btn {
+  background: #f8fafc;
+  border-color: rgba(15, 23, 42, 0.12);
+  color: #0f172a;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
+}
+
+[data-theme="light"] .foster-btn:hover {
+  background: #ffffff;
+  border-color: var(--accent-cyan);
+  color: var(--accent-cyan);
+  box-shadow: 0 4px 12px rgba(2, 132, 199, 0.12);
+}
+
 .foster-stats-box {
   background: var(--bg-surface);
   border: 1px solid var(--border-subtle);
@@ -1153,23 +1221,50 @@ body {
   padding: 1.5rem;
   display: flex;
   flex-direction: column;
-  gap: 1.25rem;
+  gap: 1.15rem;
+  transition: all var(--transition-fast);
+}
+
+[data-theme="light"] .foster-stats-box {
+  background: #f1f5f9;
+  border-color: rgba(15, 23, 42, 0.06);
+  box-shadow: inset 0 1px 2px rgba(15, 23, 42, 0.02);
 }
 
 .foster-stat-item {
   text-align: center;
 }
 
+.foster-stat-item:not(:last-child) {
+  border-bottom: 1px solid var(--border-subtle);
+  padding-bottom: 0.9rem;
+}
+
+[data-theme="light"] .foster-stat-item:not(:last-child) {
+  border-bottom-color: rgba(15, 23, 42, 0.06);
+}
+
 .foster-stat-val {
   font-family: var(--font-heading);
-  font-size: 1.75rem;
+  font-size: 1.85rem;
   font-weight: 800;
   color: var(--accent-cyan);
+  line-height: 1.15;
+  margin-bottom: 0.25rem;
+}
+
+[data-theme="light"] .foster-stat-val {
+  color: #0284c7;
 }
 
 .foster-stat-lbl {
-  font-size: 0.8rem;
+  font-size: 0.82rem;
+  font-weight: 500;
   color: var(--text-muted);
+}
+
+[data-theme="light"] .foster-stat-lbl {
+  color: #64748b;
 }
 
 /* Travel & Exploration Interactive Map */
@@ -1992,6 +2087,34 @@ body {
   }
   .foster-feature-card {
     grid-template-columns: 1fr;
+    gap: 1.75rem;
+  }
+  .foster-stats-box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+  }
+  .foster-stat-item:not(:last-child) {
+    border-bottom: none;
+    border-right: 1px solid var(--border-subtle);
+    padding-bottom: 0;
+    padding-right: 0.75rem;
+  }
+  [data-theme="light"] .foster-stat-item:not(:last-child) {
+    border-right-color: rgba(15, 23, 42, 0.08);
+  }
+}
+
+@media (max-width: 600px) {
+  .foster-stats-box {
+    grid-template-columns: 1fr;
+    gap: 1.15rem;
+  }
+  .foster-stat-item:not(:last-child) {
+    border-right: none;
+    border-bottom: 1px solid var(--border-subtle);
+    padding-bottom: 0.85rem;
+    padding-right: 0;
   }
 }
 
