@@ -929,29 +929,117 @@ function navigateLightbox(step) {
 }
 
 /* -------------------------------------------------------------------
- * 11. PERSPECTIVE SWITCHER (All | Recruiter | Explorer)
+ * 11. PERSPECTIVE TABS SWITCHER (Resume vs. Photography & Life)
  * ------------------------------------------------------------------- */
+function switchPerspectiveTab(targetTab, shouldScroll = false) {
+  const resumePane = document.getElementById("pane-resume");
+  const lifePane = document.getElementById("pane-life");
+  const heroTabBtns = document.querySelectorAll(".perspective-tab");
+  const navTabBtns = document.querySelectorAll(".nav-tab-btn");
+  const resumeNavItems = document.querySelectorAll(".nav-item-resume");
+  const lifeNavItems = document.querySelectorAll(".nav-item-life");
+
+  if (!resumePane || !lifePane) return;
+
+  const isResume = targetTab === "resume";
+
+  // 1. Toggle Active Tab Pane
+  if (isResume) {
+    resumePane.classList.add("active");
+    lifePane.classList.remove("active");
+  } else {
+    lifePane.classList.add("active");
+    resumePane.classList.remove("active");
+
+    // Invalidate Leaflet Map canvas size when life tab becomes visible
+    setTimeout(() => {
+      if (typeof travelLeafletMap !== "undefined" && travelLeafletMap) {
+        travelLeafletMap.invalidateSize();
+      }
+    }, 150);
+  }
+
+  // 2. Update Hero Perspective Buttons
+  heroTabBtns.forEach(btn => {
+    const active = btn.getAttribute("data-tab") === targetTab;
+    btn.classList.toggle("active", active);
+    btn.setAttribute("aria-selected", active ? "true" : "false");
+  });
+
+  // 3. Update Navbar Tab Buttons
+  navTabBtns.forEach(btn => {
+    const active = btn.getAttribute("data-tab") === targetTab;
+    btn.classList.toggle("active", active);
+    btn.setAttribute("aria-selected", active ? "true" : "false");
+  });
+
+  // 4. Update Navbar Sub-Links
+  resumeNavItems.forEach(item => {
+    item.style.display = isResume ? "block" : "none";
+  });
+  lifeNavItems.forEach(item => {
+    item.style.display = isResume ? "none" : "block";
+  });
+
+  // 5. Store Preference in LocalStorage
+  localStorage.setItem("shilong_active_tab", targetTab);
+
+  // 6. Scroll into view if explicitly requested
+  if (shouldScroll) {
+    const navBar = document.querySelector(".perspective-nav");
+    if (navBar) {
+      navBar.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+  }
+}
+
 function initPerspectiveSwitcher() {
-  const buttons = document.querySelectorAll(".view-mode-btn");
-  const recruiterSections = ["section-experience", "section-publications", "section-education", "section-skills"];
-  const explorerSections = ["section-hobbies"];
-
-  buttons.forEach(btn => {
-    btn.addEventListener("click", () => {
-      buttons.forEach(b => b.classList.remove("active"));
-      btn.classList.add("active");
-      const mode = btn.getAttribute("data-mode");
-
-      if (mode === "recruiter") {
-        document.getElementById("section-experience")?.scrollIntoView({ behavior: "smooth" });
-        showToast("💼 Switched to Recruiter View: Professional timeline & papers highlighted");
-      } else if (mode === "explorer") {
-        document.getElementById("section-hobbies")?.scrollIntoView({ behavior: "smooth" });
-        showToast("🏕️ Switched to Explorer View: Photography gallery & life stories highlighted");
-      } else {
-        showToast("Showing complete overview");
+  // Bind Hero perspective tab buttons
+  const heroTabs = document.querySelectorAll(".perspective-tab");
+  heroTabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+      const target = tab.getAttribute("data-tab");
+      switchPerspectiveTab(target, false);
+      if (history.replaceState) {
+        history.replaceState(null, null, `#${target}`);
       }
     });
+  });
+
+  // Bind Navbar tab buttons
+  const navTabs = document.querySelectorAll(".nav-tab-btn");
+  navTabs.forEach(tab => {
+    tab.addEventListener("click", () => {
+      const target = tab.getAttribute("data-tab");
+      switchPerspectiveTab(target, true);
+      if (history.replaceState) {
+        history.replaceState(null, null, `#${target}`);
+      }
+    });
+  });
+
+  // Check initial URL hash or stored preference
+  const hash = window.location.hash.toLowerCase();
+  const storedTab = localStorage.getItem("shilong_active_tab");
+
+  if (hash === "#life" || hash === "#hobbies" || hash === "#photography" || hash === "#photos" || hash === "#foster" || hash === "#travel" || hash === "#map") {
+    switchPerspectiveTab("life", false);
+  } else if (hash === "#resume" || hash === "#experience" || hash === "#publications" || hash === "#education" || hash === "#skills") {
+    switchPerspectiveTab("resume", false);
+  } else if (storedTab === "life") {
+    switchPerspectiveTab("life", false);
+  } else {
+    switchPerspectiveTab("resume", false);
+  }
+
+  // Handle URL hash changes (back / forward navigation or link jumps)
+  window.addEventListener("hashchange", () => {
+    const newHash = window.location.hash.toLowerCase();
+    if (newHash === "#life" || newHash === "#hobbies" || newHash === "#photography" || newHash === "#photos" || newHash === "#foster" || newHash === "#travel" || newHash === "#map") {
+      switchPerspectiveTab("life", false);
+    } else if (newHash === "#resume" || newHash === "#experience" || newHash === "#publications" || newHash === "#education" || newHash === "#skills") {
+      switchPerspectiveTab("resume", false);
+    }
   });
 }
 
@@ -993,7 +1081,7 @@ function initTerminal(terminalData) {
 
   // Suggestion Chips
   if (chipsContainer) {
-    const quickCmds = ["help", "bio", "exp", "pub", "photos", "map", "skills", "foster", "resume", "hire"];
+    const quickCmds = ["help", "bio", "exp", "pub", "skills", "photos", "map", "foster", "resume", "hire"];
     chipsContainer.innerHTML = quickCmds.map(cmd => `
       <span class="terminal-chip" data-cmd="${cmd}">${cmd}</span>
     `).join("");
@@ -1029,18 +1117,46 @@ function initTerminal(terminalData) {
       showToast("🚀 Offer accepted! Thanks for reaching out.");
     } else if (cleanCmd === "resume" || cleanCmd === "cv") {
       response = terminalData.commands.resume || "Opening resume...";
+      switchPerspectiveTab("resume", false);
       window.open(window.PORTFOLIO_DATA.profile.resumeUrl, "_blank");
+    } else if (cleanCmd === "exp" || cleanCmd === "experience") {
+      response = terminalData.commands.exp;
+      closeTerminal();
+      switchPerspectiveTab("resume", false);
+      document.getElementById("section-experience")?.scrollIntoView({ behavior: "smooth" });
+    } else if (cleanCmd === "pub" || cleanCmd === "publications") {
+      response = terminalData.commands.pub;
+      closeTerminal();
+      switchPerspectiveTab("resume", false);
+      document.getElementById("section-publications")?.scrollIntoView({ behavior: "smooth" });
+    } else if (cleanCmd === "skills") {
+      response = terminalData.commands.skills;
+      closeTerminal();
+      switchPerspectiveTab("resume", false);
+      document.getElementById("section-skills")?.scrollIntoView({ behavior: "smooth" });
     } else if (cleanCmd === "photos" || cleanCmd === "gallery") {
       response = "Navigating to Photography Gallery...";
       closeTerminal();
-      document.getElementById("section-hobbies")?.scrollIntoView({ behavior: "smooth" });
+      switchPerspectiveTab("life", false);
+      document.getElementById("photo-grid-container")?.scrollIntoView({ behavior: "smooth" });
     } else if (cleanCmd === "map" || cleanCmd === "travel" || cleanCmd === "parks") {
       response = "Navigating to Exploration & Wilderness Map...";
       closeTerminal();
+      switchPerspectiveTab("life", false);
       document.getElementById("travel-map-card")?.scrollIntoView({ behavior: "smooth" });
       setTimeout(() => {
-        if (travelLeafletMap) travelLeafletMap.invalidateSize();
+        if (typeof travelLeafletMap !== "undefined" && travelLeafletMap) {
+          travelLeafletMap.invalidateSize();
+        }
       }, 300);
+    } else if (cleanCmd === "foster") {
+      response = terminalData.commands.foster;
+      closeTerminal();
+      switchPerspectiveTab("life", false);
+      document.getElementById("fostering-container")?.scrollIntoView({ behavior: "smooth" });
+    } else if (cleanCmd === "bio" || cleanCmd === "about") {
+      response = terminalData.commands.bio;
+      document.querySelector(".hero")?.scrollIntoView({ behavior: "smooth" });
     } else if (terminalData.commands[cleanCmd]) {
       response = terminalData.commands[cleanCmd];
     } else {
