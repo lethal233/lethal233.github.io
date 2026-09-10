@@ -49,15 +49,28 @@
         <span id="nav-brand-name">Shilong Li</span>
       </a>
 
-      <nav>
-        <ul class="nav-links">
-          <li><a href="#section-experience" class="nav-link">Experience</a></li>
-          <li><a href="#section-publications" class="nav-link">Publications</a></li>
-          <li><a href="#section-education" class="nav-link">Education</a></li>
-          <li><a href="#section-skills" class="nav-link">Skills</a></li>
-          <li><a href="#section-hobbies" class="nav-link">Photography & Life</a></li>
-        </ul>
-      </nav>
+      <div class="nav-center-group">
+        <div class="nav-perspective-switcher" role="tablist" aria-label="Portfolio Views">
+          <button class="nav-tab-btn active" role="tab" id="nav-tab-resume" aria-selected="true" data-tab="resume">
+            <span>💼 Resume</span>
+          </button>
+          <button class="nav-tab-btn" role="tab" id="nav-tab-life" aria-selected="false" data-tab="life">
+            <span>🌿 Photography & Life</span>
+          </button>
+        </div>
+
+        <nav>
+          <ul class="nav-links" id="nav-links">
+            <li class="nav-item-resume"><a href="#section-experience" class="nav-link">Experience</a></li>
+            <li class="nav-item-resume"><a href="#section-publications" class="nav-link">Publications</a></li>
+            <li class="nav-item-resume"><a href="#section-education" class="nav-link">Education</a></li>
+            <li class="nav-item-resume"><a href="#section-skills" class="nav-link">Skills</a></li>
+            <li class="nav-item-life" style="display: none;"><a href="#fostering-container" class="nav-link">Fostering</a></li>
+            <li class="nav-item-life" style="display: none;"><a href="#photo-grid-container" class="nav-link">Photography</a></li>
+            <li class="nav-item-life" style="display: none;"><a href="#travel-community-container" class="nav-link">Exploration Map</a></li>
+          </ul>
+        </nav>
+      </div>
 
       <div class="nav-actions">
         <!-- Terminal Launcher -->
@@ -121,8 +134,35 @@
       </div>
     </section>
 
-    <!-- Quick Highlights Banner -->
-    <section class="highlights-section">
+    <!-- Perspective Tab Navigation -->
+    <nav class="perspective-nav" aria-label="Portfolio Perspectives">
+      <div class="container">
+        <div class="perspective-switcher" role="tablist">
+          <button class="perspective-tab active" role="tab" id="tab-btn-resume" aria-selected="true" aria-controls="pane-resume" data-tab="resume">
+            <span class="perspective-icon">💼</span>
+            <div class="perspective-text">
+              <span class="perspective-title">Resume & Engineering</span>
+              <span class="perspective-desc">Career Timeline · Publications · Education · Skills</span>
+            </div>
+            <span class="perspective-badge">Professional</span>
+          </button>
+          <button class="perspective-tab" role="tab" id="tab-btn-life" aria-selected="false" aria-controls="pane-life" data-tab="life">
+            <span class="perspective-icon">🌿</span>
+            <div class="perspective-text">
+              <span class="perspective-title">Photography & Life</span>
+              <span class="perspective-desc">Animal Fostering · Photo Gallery · US Map · Community</span>
+            </div>
+            <span class="perspective-badge">Beyond Code</span>
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Tab Pane 1: Resume & Engineering -->
+    <div id="pane-resume" class="tab-pane active" role="tabpanel" aria-labelledby="tab-btn-resume">
+
+      <!-- Quick Highlights Banner -->
+      <section class="highlights-section">
       <div class="container">
         <div id="highlights-container" class="highlights-grid">
           <!-- Populated via data/content.js -->
@@ -197,7 +237,10 @@
         </div>
       </div>
     </section>
+  </div> <!-- End #pane-resume -->
 
+  <!-- Tab Pane 2: Photography & Life -->
+  <div id="pane-life" class="tab-pane" role="tabpanel" aria-labelledby="tab-btn-life">
     <!-- Hobbies, Photography & Life -->
     <section class="section" id="section-hobbies">
       <div class="container">
@@ -238,6 +281,7 @@
         </div>
       </div>
     </section>
+  </div> <!-- End #pane-life -->
   </main>
 
   <!-- Footer -->

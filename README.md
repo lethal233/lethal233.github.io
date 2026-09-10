@@ -3,6 +3,9 @@
 Personal website hosted at [lethal233.github.io](https://lethal233.github.io) on the `master` branch.
 
 ## ✨ Highlights
+- **Two-Tab Perspective Architecture**: Eliminates excessive page length by splitting the portfolio into two dedicated, switchable views:
+  - **💼 Resume & Engineering**: Focused recruiter view with quick metrics, career timeline, ACM FSE publications, education, and technical skills matrix.
+  - **🌿 Photography & Life**: Dedicated showcase for animal rescue fostering, fullscreen photography gallery, interactive US travel map, and open source contributions.
 - **Tech-Savvy Aesthetic**: Dark & light mode with ambient glowing gradients, modern typography (Inter + Space Grotesk + JetBrains Mono), and an interactive shell (`Cmd+K` / `Ctrl+K`).
 - **Recruiter-Friendly**: Interactive career timeline with filters (Industry, Research, Teaching), direct resume download, peer-reviewed ACM FSE publication cards with one-click BibTeX copy, and skills matrix.
 - **Hobby & Life Showcase**:
