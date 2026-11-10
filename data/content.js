@@ -34,7 +34,6 @@ window.PORTFOLIO_DATA = {
     taglines: [
       "Data-Centered Software Engineering & Analytics",
       "R&D Analyst @ GEICO",
-      "Software Engineering & Autonomous Systems Researcher",
       "Landscape & Astrophotographer",
       "Animal Rescue Foster Volunteer",
       "Always Learning & Building"
