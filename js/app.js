@@ -116,12 +116,15 @@ function renderProfile(profile) {
   // Actions (Resume, Email / LinkedIn)
   const actionsContainer = document.getElementById("hero-actions");
   if (actionsContainer) {
-    let actionsHtml = `
+    // Resume download button is only rendered when profile.resumeUrl is set
+    // (intentionally disabled so the CV is not publicly downloadable).
+    let actionsHtml = profile.resumeUrl ? `
       <a href="${escapeHtml(profile.resumeUrl)}" class="btn btn-primary" target="_blank" download>
         <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="7 10 12 15 17 10"></polyline><line x1="12" y1="15" x2="12" y2="3"></line></svg>
         Download CV / Resume
       </a>
-    `;
+    ` : "";
+    const secondaryBtnClass = profile.resumeUrl ? "btn-secondary" : "btn-primary";
 
     if (profile.contactEmail) {
       actionsHtml += `
@@ -136,7 +139,7 @@ function renderProfile(profile) {
       `;
     } else if (profile.social && profile.social.linkedin) {
       actionsHtml += `
-        <a href="${escapeHtml(profile.social.linkedin)}" target="_blank" rel="noopener" class="btn btn-secondary">
+        <a href="${escapeHtml(profile.social.linkedin)}" target="_blank" rel="noopener" class="btn ${secondaryBtnClass}">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>
           Connect on LinkedIn
         </a>
@@ -1081,7 +1084,7 @@ function initTerminal(terminalData) {
 
   // Suggestion Chips
   if (chipsContainer) {
-    const quickCmds = ["help", "bio", "exp", "pub", "skills", "photos", "map", "foster", "resume", "hire"];
+    const quickCmds = ["help", "bio", "exp", "pub", "skills", "photos", "map", "foster", "hire"];
     chipsContainer.innerHTML = quickCmds.map(cmd => `
       <span class="terminal-chip" data-cmd="${cmd}">${cmd}</span>
     `).join("");
@@ -1116,9 +1119,12 @@ function initTerminal(terminalData) {
       response = terminalData.commands.hire || "✨ Access granted! Shilong is thrilled to connect.";
       showToast("🚀 Offer accepted! Thanks for reaching out.");
     } else if (cleanCmd === "resume" || cleanCmd === "cv") {
-      response = terminalData.commands.resume || "Opening resume...";
+      // The PDF resume is not publicly downloadable; point visitors to LinkedIn instead.
+      response = terminalData.commands.resume || "Resume is available upon request. Please connect via LinkedIn.";
       switchPerspectiveTab("resume", false);
-      window.open(window.PORTFOLIO_DATA.profile.resumeUrl, "_blank");
+      if (window.PORTFOLIO_DATA.profile.resumeUrl) {
+        window.open(window.PORTFOLIO_DATA.profile.resumeUrl, "_blank");
+      }
     } else if (cleanCmd === "exp" || cleanCmd === "experience") {
       response = terminalData.commands.exp;
       closeTerminal();

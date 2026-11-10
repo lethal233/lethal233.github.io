@@ -4,10 +4,10 @@ Personal website hosted at [lethal233.github.io](https://lethal233.github.io) on
 
 ## ✨ Highlights
 - **Two-Tab Perspective Architecture**: Eliminates excessive page length by splitting the portfolio into two dedicated, switchable views:
-  - **💼 Resume & Engineering**: Focused recruiter view with quick metrics, career timeline, ACM FSE publications, education, and technical skills matrix.
+  - **💼 Resume & Data Analytics**: Focused recruiter view with quick metrics, career timeline, ACM FSE publications, education, and a data-focused skills matrix.
   - **🌿 Photography & Life**: Dedicated showcase for animal rescue fostering, fullscreen photography gallery, interactive US travel map, and open source contributions.
 - **Tech-Savvy Aesthetic**: Dark & light mode with ambient glowing gradients, modern typography (Inter + Space Grotesk + JetBrains Mono), and an interactive shell (`Cmd+K` / `Ctrl+K`).
-- **Recruiter-Friendly**: Interactive career timeline with filters (Industry, Research, Teaching), direct resume download, peer-reviewed ACM FSE publication cards with one-click BibTeX copy, and skills matrix.
+- **Recruiter-Friendly**: Interactive career timeline with filters (Industry, Research, Teaching), peer-reviewed ACM FSE publication cards with one-click BibTeX copy, and skills matrix centered on data and data analytics. The PDF resume is intentionally **not** publicly downloadable (available upon request via LinkedIn).
 - **Hobby & Life Showcase**:
   - **Interactive Travel & POI Map**: Hardware-accelerated Leaflet map with dark canvas, custom neon pins, category filtering (National Parks, Scenic Byways, Points of Interest, Coastal), bi-directional pan/fly, and direct links to gallery photos.
   - **Photography Gallery**: Fullscreen lightbox showcase with category filters (Astrophotography, Landscape, Coastal, etc.).
@@ -31,7 +31,7 @@ Whenever you want to update your resume, add a new publication, add photos, or m
 | **Photography Gallery** | `hobbies.photography` | Place images in `images/portfolio/` and add their metadata |
 | **Animal Fostering** | `hobbies.fostering` | Update foster stories, adoption stats, or Instagram link |
 | **Terminal Shell Commands** | `terminal.commands` | Add custom commands or easter eggs to the interactive shell |
-| **Resume / CV PDF** | `profile.resumeUrl` | Replace `files/cv_Shilong_Li_en.pdf` with your latest CV |
+| **Resume / CV PDF** | `profile.resumeUrl` | Disabled (`null`) so the CV cannot be downloaded. `files/*.pdf` is git-ignored; set a path and commit the file only if you want to re-enable the download button |
 
 ### 📍 How to Add a New Point of Interest (POI)
 To display a new visited national park, scenic drive, or landmark on the interactive map, append an entry to `hobbies.travel.places` in [`data/content.js`](data/content.js):
@@ -90,6 +90,5 @@ GitHub Pages will automatically serve the updated site in seconds!
 ├── images/
 │   ├── profile/            # Avatar and hero ambient background
 │   └── portfolio/          # Categorized photography (astrophotography, landscape, coastal, etc.)
-└── files/
-    └── cv_Shilong_Li_en.pdf # Downloadable Resume / CV
+└── files/                  # Private files (PDFs are git-ignored and NOT published)
 ```

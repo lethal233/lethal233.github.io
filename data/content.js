@@ -22,17 +22,19 @@ window.PORTFOLIO_DATA = {
     title: "R&D Analyst @ GEICO",
     location: "Washington-Baltimore Area",
     avatar: "images/profile/avatar.jpg",
-    resumeUrl: "files/cv_Shilong_Li_en.pdf",
+    // Resume download is intentionally disabled (null) so the CV is not publicly downloadable.
+    // Set to a file path (e.g. "files/cv.pdf") to re-enable the download button.
+    resumeUrl: null,
 
     // Status badge shown in header & hero
     status: {
       available: true,
-      text: "Exploring Data-Centered Software Engineering & Systems"
+      text: "Exploring Data Analytics & Data-Driven Insights"
     },
 
     // Rotating animated titles / taglines in the hero banner
     taglines: [
-      "Data-Centered Software Engineering & Analytics",
+      "Data Analytics & Data Engineering",
       "R&D Analyst @ GEICO",
       "Landscape & Astrophotographer",
       "Animal Rescue Foster Volunteer",
@@ -43,11 +45,11 @@ window.PORTFOLIO_DATA = {
 
     about: `Hi! I'm Shilong Li, currently a Research and Development Analyst at GEICO based in the Washington-Baltimore Area.
 
-My focus centers on data-centered software engineering—encompassing data governance, data engineering, analytics engineering, data analysis, and data-driven business strategy—alongside software testing automation, failure emergence, and autonomous driving systems.
+My focus centers on data and data analytics—encompassing data analysis, analytics engineering, data modeling, data governance, data quality, and data-driven business strategy—turning complex enterprise data into reliable, actionable insights.
 
-I hold an M.S. in Software Engineering from UC Irvine (June 2024) and a B.Eng. in Computer Science with Honors from SUSTech (June 2022).
+I hold an M.S. from UC Irvine (June 2024) and a B.Eng. in Computer Science with Honors from SUSTech (June 2022), where my research involved large-scale empirical data studies of autonomous driving systems.
 
-Beyond engineering, I am passionate about landscape & astrophotography, fostering shelter companion animals, and exploring national parks.`,
+Beyond work, I am passionate about landscape & astrophotography, fostering shelter companion animals, and exploring national parks.`,
 
     // Social profiles
     social: {
@@ -66,18 +68,18 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
   highlights: [
     {
       metric: "FSE '24 & '25",
-      label: "Top-Tier SE Publications",
-      subtext: "Autonomous driving & testing research published in ACM FSE"
+      label: "Peer-Reviewed Publications",
+      subtext: "Large-scale empirical studies of autonomous driving systems at ACM FSE"
     },
     {
       metric: "M.S. + B.Eng.",
-      label: "Software Engineering & CS",
-      subtext: "UC Irvine (Grad) & SUSTech (Honors, top 5%)"
+      label: "UC Irvine & SUSTech",
+      subtext: "Graduate studies (UCI) & CS Honors (SUSTech, top 5%)"
     },
     {
-      metric: "Industry & R&D",
-      label: "GEICO & Authentic8",
-      subtext: "Enterprise analytics engineering, data governance, and test automation"
+      metric: "Data & Analytics",
+      label: "GEICO R&D",
+      subtext: "Enterprise data analytics, data modeling, governance, and data quality"
     },
     {
       metric: "10+ Rescues",
@@ -99,12 +101,12 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
       location: "Bethesda, MD",
       period: "2025.01 - Present",
       isCurrent: true,
-      summary: "Driving data analytics engineering, enterprise data governance, and reliable data pipelines within GEICO's R&D organization.",
+      summary: "Driving data analytics, enterprise data governance, and reliable data pipelines within GEICO's R&D organization.",
       bullets: [
-        "Architecting scalable data models, automated validation frameworks, and analytics pipelines to support high-impact enterprise decision systems.",
+        "Building scalable data models, automated data validation, and analytics pipelines that power high-impact business decisions.",
         "Establishing data governance standards, schema consistency, and end-to-end data quality checks across cloud data environments."
       ],
-      skills: ["Python", "SQL", "Git", "dbt", "Snowflake", "PowerBI", "Azure DevOps", "Data Engineering", "Data Analytics", "System Reliability", "Enterprise Systems"]
+      skills: ["SQL", "Python", "dbt", "Snowflake", "PowerBI", "Data Analytics", "Data Modeling", "Data Engineering", "Data Governance", "Data Quality"]
     },
     {
       id: "uci-ta",
@@ -113,13 +115,13 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
       company: "University of California, Irvine",
       location: "Irvine, CA",
       period: "2022.09 - 2024.06",
-      summary: "Mentored 400+ undergraduate students across 6 academic quarters in requirements engineering and advanced Java programming.",
+      summary: "Mentored 400+ undergraduate students across 6 academic quarters in requirements analysis and Java.",
       bullets: [
         "Head TA for INF 113: Requirements Analysis and Engineering (Spring 2023, Spring 2024).",
         "TA for ICS 45J: Programming in Java as a Second Language (Fall 2022, Winter 2023, Fall 2023, Winter 2024).",
-        "Conducted weekly discussion sessions, designed automated test grading scripts, and held 1-on-1 code review office hours."
+        "Conducted weekly discussion sessions, designed automated grading scripts, and held 1-on-1 office hours."
       ],
-      skills: ["Java", "Requirements Engineering", "Mentorship", "Curriculum Design"]
+      skills: ["Java", "Requirements Analysis", "Mentorship", "Curriculum Design"]
     },
     {
       id: "authentic8",
@@ -128,13 +130,13 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
       company: "Authentic8, Inc.",
       location: "Redwood City, CA",
       period: "2023.06 - 2023.09",
-      summary: "Developed automated end-to-end and regression testing suites for cloud browser isolation security software (Silo).",
+      summary: "Built automated quality-assurance and regression testing workflows for a cloud browser isolation security platform (Silo).",
       bullets: [
-        "Built and maintained robust automated test pipelines using Python and Selenium, slashing manual regression test cycle time by 35%.",
+        "Built and maintained automated test pipelines using Python and Selenium, cutting manual regression test cycle time by 35%.",
         "Designed edge-case test suites for enterprise security policies and cross-platform browser sandboxing behaviors.",
-        "Collaborated across distributed engineering teams to integrate tests into Jenkins CI/CD workflows."
+        "Collaborated with distributed teams to integrate quality checks into Jenkins CI/CD workflows."
       ],
-      skills: ["Python", "Selenium", "JIRA", "Xray", "Automation Testing", "Cross-Browser Testing", "CI/CD", "Regression Testing", "Cloud Security"]
+      skills: ["Python", "Selenium", "JIRA", "Xray", "Quality Assurance", "Automation Testing", "Regression Testing", "Cloud Security"]
     },
     {
       id: "sustech-ra",
@@ -143,7 +145,7 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
       company: "Southern University of Science and Technology",
       location: "Shenzhen, China",
       period: "2019.09 - 2022.06",
-      summary: "Conducted research on web application testing, record & replay frameworks, and software engineering under Prof. Yepang Liu.",
+      summary: "Conducted research on web application testing, execution trace analysis, and record & replay frameworks under Prof. Yepang Liu.",
       bullets: [
         "Developed a record and replay framework for modern asynchronous web application testing, recognized with the Outstanding Graduation Thesis Award (Honored Thesis).",
         "Analyzed event scheduling nondeterminism in client-side JavaScript applications to boost replay fidelity.",
@@ -158,7 +160,7 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
       company: "Lakala Payment Co., Ltd.",
       location: "Shenzhen, China",
       period: "2021.09 - 2021.12",
-      summary: "Engineered high-throughput backend services and distributed transaction monitoring for enterprise payment infrastructure.",
+      summary: "Built high-throughput transaction processing and transaction monitoring services for enterprise payment infrastructure.",
       bullets: [
         "Implemented microservices and API gateways in Go, handling high-concurrency payment processing and transaction verification.",
         "Researched blockchain and distributed ledger technologies (Hyperledger Fabric) for secure cross-institution settlement workflows."
@@ -193,7 +195,7 @@ Beyond engineering, I am passionate about landscape & astrophotography, fosterin
       link: "https://www.informatics.uci.edu/grad/ms-software-engineering/",
       thesis: "Transferring A Testing Technique Among Autonomous Driving Systems",
       advisor: "Prof. Joshua Garcia",
-      details: "Focus on automated software testing, cyber-physical systems, autonomous driving platforms (Baidu Apollo, Autoware), and software quality assurance."
+      details: "Focus on empirical data studies, quality assurance, cyber-physical systems, and autonomous driving platforms (Baidu Apollo, Autoware)."
     },
     {
       degree: "B.Eng. in Computer Science and Technology",
@@ -291,29 +293,34 @@ keywords = {Autonomous driving systems, Software configuration}
   // -----------------------------------------------------------------
   skills: [
     {
-      category: "Data Engineering",
+      category: "Data Analytics & BI",
+      icon: "trending-up",
+      items: ["Data Analysis", "SQL", "Pandas", "PowerBI", "Streamlit", "Data Analytics Engineering", "Data-Driven Strategy"]
+    },
+    {
+      category: "Data Engineering & Governance",
       icon: "database",
-      items: ["Snowflake", "ELT / ETL", "dbt", "Data Modeling", "Schema Design", "Data Quality", "PySpark", "Data Governance", "Data Analytics Engineering", "Data-Driven Strategy", "SQL"]
+      items: ["Snowflake", "dbt", "ELT / ETL", "PySpark", "Data Modeling", "Schema Design", "Data Quality", "Data Governance"]
+    },
+    {
+      category: "Statistical & Predictive Modeling",
+      icon: "trending-up",
+      items: ["Predictive Modeling", "Linear Regression", "Random Forest", "XGBoost", "NLP", "PyTorch"]
     },
     {
       category: "Languages",
       icon: "terminal",
-      items: ["Python", "SQL", "Java", "Go", "JavaScript / TypeScript", "C#", "C / C++", "Bash / Shell", "R"]
+      items: ["Python", "SQL", "R", "Java", "Go", "JavaScript / TypeScript", "C#", "Bash / Shell"]
     },
     {
-      category: "Cloud & DevOps",
+      category: "Cloud & Data Platforms",
       icon: "cloud",
-      items: ["Azure DevOps", "GCP", "AWS", "Docker", "Kubernetes", "CI/CD", "Jenkins", "Linux / Unix"]
+      items: ["Snowflake", "Azure DevOps", "GCP", "AWS", "Docker", "Linux / Unix"]
     },
     {
-      category: "Advanced Analytics",
-      icon: "trending-up",
-      items: ["Predictive Modeling", "NLP", "XGBoost", "Random Forest", "Linear Regression", "PyTorch", "Data Analysis", "Pandas"]
-    },
-    {
-      category: "Frameworks & Tools",
+      category: "Tools & Quality Assurance",
       icon: "layers",
-      items: ["Streamlit", "React", "Playwright", "Selenium", "Git", "GitHub", "Postman", "Jira", "Xray", "Spring Boot", "Node.js", "Automated Testing", "Regression Testing"]
+      items: ["Git", "GitHub", "Jira", "Xray", "Selenium", "Playwright", "Automated Testing"]
     },
     {
       category: "Autonomous Systems & Cyber-Physical",
@@ -731,7 +738,7 @@ keywords = {Autonomous driving systems, Software configuration}
       {
         name: "ICSE 2020",
         role: "Online Volunteer",
-        desc: "Supported operations for the 42nd International Conference on Software Engineering."
+        desc: "Supported online operations for ICSE 2020, a premier international research conference."
       }
     ]
   },
@@ -743,18 +750,18 @@ keywords = {Autonomous driving systems, Software configuration}
     welcomeMessage: `Antigravity Shell v2.4 (x86_64-shilong-sys)
 Type 'help' to inspect available commands or click the suggestion chips.`,
     commands: {
-      help: "Available commands:\n  • bio          - View brief autobiography\n  • exp          - List work & research experiences\n  • pub          - Show ACM FSE research publications\n  • skills       - Display categorized technical skills\n  • photos       - Jump to photography gallery\n  • map / travel - Open interactive National Parks & POI map\n  • foster       - View shelter animal foster story\n  • resume       - Open/Download PDF Resume\n  • contact      - View social & professional links\n  • clear        - Clear terminal output\n  • sudo hire-shilong - Submit instant recruitment offer 🚀",
-      bio: "Shilong Li - R&D Analyst @ GEICO | M.S. Software Engineering (UCI) | B.Eng. CS (SUSTech with Honors)\nBased in Washington-Baltimore Area. Focused on data-centered software engineering, analytics engineering, reliable systems, and autonomous driving.",
+      help: "Available commands:\n  • bio          - View brief autobiography\n  • exp          - List work & research experiences\n  • pub          - Show ACM FSE research publications\n  • skills       - Display categorized technical skills\n  • photos       - Jump to photography gallery\n  • map / travel - Open interactive National Parks & POI map\n  • foster       - View shelter animal foster story\n  • contact      - View social & professional links\n  • clear        - Clear terminal output\n  • sudo hire-shilong - Submit instant recruitment offer 🚀",
+      bio: "Shilong Li - R&D Analyst @ GEICO | M.S. (UCI) | B.Eng. CS (SUSTech with Honors)\nBased in Washington-Baltimore Area. Focused on data analytics, data modeling, data governance, and data-driven decision making.",
       exp: "Experiences:\n  1. GEICO - Research and Development Analyst (2025.01 - Present)\n  2. UC Irvine - Graduate Teaching Assistant (2022.09 - 2024.06)\n  3. Authentic8 - QA Engineering Intern (2023.06 - 2023.09)\n  4. SUSTech - Undergraduate Research Assistant (2019.09 - 2022.06)\n  5. Lakala Payment - Software Engineer Intern (2021.09 - 2021.12)",
       pub: "Publications:\n  • [FSE 2025] Bug-Fix Patterns in Autonomous Driving Systems (ACM DOI: 10.1145/3715733)\n  • [FSE 2024] Misconfiguration Software Testing for Failure Emergence in ADS (ACM DOI: 10.1145/3660792)",
-      skills: "Data Engineering: Snowflake, dbt, PySpark, ELT, Data Modeling, Schema Design, Data Quality\nLanguages: Python, SQL, Java, Go, JavaScript, C#, Bash, R\nCloud & DevOps: Azure DevOps, GCP, AWS, Docker, Kubernetes, CI/CD, Jenkins\nAdvanced Analytics: Predictive Modeling, NLP, XGBoost, Random Forest, PyTorch\nFrameworks & Tools: Streamlit, React, Playwright, Selenium, Git, Postman, Jira\nAutonomous Systems: Apollo, Autoware, CARLA Simulator",
+      skills: "Data Analytics & BI: Data Analysis, SQL, Pandas, PowerBI, Streamlit\nData Engineering & Governance: Snowflake, dbt, PySpark, ELT, Data Modeling, Schema Design, Data Quality\nStatistical & Predictive Modeling: Linear Regression, Random Forest, XGBoost, NLP, PyTorch\nLanguages: Python, SQL, R, Java, Go, JavaScript, C#, Bash\nCloud & Data Platforms: Snowflake, Azure DevOps, GCP, AWS\nAutonomous Systems: Apollo, Autoware, CARLA Simulator",
       photos: "Navigating to Photography Showcase: Astrophotography, Landscapes, and National Parks...",
       travel: "Exploration & Wilderness: 27+ visited National Parks, scenic byways, and points of interest across the United States. Navigating to Interactive Travel Map...",
       map: "Exploration & Wilderness: 27+ visited National Parks, scenic byways, and points of interest across the United States. Navigating to Interactive Travel Map...",
       foster: "Foster Volunteer @ Irvine Animal Care Center (2023 - 2024). Cared for 10+ shelter cats and dogs to prepare them for loving forever families! Check out Instagram @_shilongli for stories.",
       contact: "Connect with Shilong:\n  • LinkedIn: https://linkedin.com/in/shilong-li\n  • GitHub: https://github.com/lethal233\n  • Google Scholar: https://scholar.google.com/citations?user=OuQTuoEAAAAJ\n  • Instagram: https://www.instagram.com/_shilongli",
-      hire: "✨ Access granted! Shilong is thrilled to connect about impactful engineering opportunities. Connect via LinkedIn: https://linkedin.com/in/shilong-li",
-      resume: "Opening resume: files/cv_Shilong_Li_en.pdf ..."
+      hire: "✨ Access granted! Shilong is thrilled to connect about impactful data & analytics opportunities. Connect via LinkedIn: https://linkedin.com/in/shilong-li",
+      resume: "Resume is available upon request. Please connect via LinkedIn: https://linkedin.com/in/shilong-li"
     }
   }
 };
